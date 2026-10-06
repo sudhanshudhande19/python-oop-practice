@@ -1,4 +1,5 @@
 # Create an Employee class with (name,salary,department) Create three employee objects and display their details.
+#--------------------------------------------------------------------
 
 class Employee:
     name = ''

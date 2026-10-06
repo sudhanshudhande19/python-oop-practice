@@ -1,6 +1,6 @@
 # 8.Create a Product class with (name,price,quantity) Create three product objects. 
 # Create a method: total_price() which returns: price × quantity
-
+#---------------------------------------------------------------------------------
 class Product:
     name = ''   # Class Attribute
     price = 00

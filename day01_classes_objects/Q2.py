@@ -1,4 +1,5 @@
 # Create a Car class with( brand , model , price) Create one object and display the car information.
+#--------------------------------------------------------------------------------
 
 class car:
     brand = 'BMW'

@@ -1,5 +1,5 @@
 # Create a Student class with (1. name, 2.age, 3.Course) create one object displya all details.
-
+#----------------------------------------------------------------------------------------
 class student :
     name  = 'Sudhanshu Dhande'
     age  = 21

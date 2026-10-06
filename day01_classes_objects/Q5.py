@@ -1,4 +1,5 @@
 # Create a Rectangle class with (length ,width )Create a method area() that returns the area of the rectangle.
+#------------------------------------------------------------------------------------
 
 class Rectangle:
     length = 20

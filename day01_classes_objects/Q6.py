@@ -1,4 +1,5 @@
 # Create a Student class with (name,age,marks) Create two objects with different values and display their details
+#--------------------------------------------------------------------
 
 class Student:
     name  = ''

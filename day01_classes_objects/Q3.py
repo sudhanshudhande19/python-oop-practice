@@ -1,4 +1,5 @@
 # Create a Mobile class with (brand ,model ,price) Create an object and display its details.
+#---------------------------------------------------------------------------------
 
 class Mobile:
     Brand = 'Samsung'

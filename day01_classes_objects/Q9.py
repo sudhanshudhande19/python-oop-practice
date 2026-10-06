@@ -1,18 +1,20 @@
+# reate a Circle class with:(radius) Create two methods: area() ,circumference()
+# Use:
+# Area = π × r²
+# Circumference = 2 × π × r
+#--------------------------------------------------------------------
+class Circle:
+    radius = 5
+    def area(self):
+        return 3.14 * self.radius * self.radius
 
-
-class BankAccount:
-    balance = int(input("Enter the Balance = "))
-
-    def deposit(self):
-        self.deposit = self.deposit + self.balance
-
-    def withdraw(self):
-        self.withdraw = self.withdraw - self.balance
-
+    def circumference(self):
+        return 2 * 3.14 * self.radius
+        
     def info(self):
-        print(f"Balamce = {self.balance}\nDeposit = {self.deposit}\nWithdraw = {self.withdraw}")
+        print(f"Area = {self.area()}\nCircumference = {self.circumference()}")
 
-obj = BankAccount()
-obj.deposit()
-obj.withdraw()
+obj = Circle()
+obj.area()
+obj.circumference()
 obj.info()
