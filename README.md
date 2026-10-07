@@ -769,5 +769,5 @@ After completing this roadmap, I should be able to:
 
 ---
 
-<h3 align="center">⭐ Made with 💻 and ☕ by <b>Sudhanshu Dhande</b> ⭐</h3>
-<p align="center"><i>B.Tech CSE (AI &amp; ML) · BATU, Lonere · Python OOP Journey</i></p>
+<h3 align="center"><b>Sudhanshu Dhande</b> </h3>
+<p align="center"><i>B.Tech(AI &amp; ML) · BATU, Lonere · Python OOP Journey</i></p>
