@@ -5,27 +5,34 @@
 
 # Test the property with different values.
 #-----------------------------------------------------------------
-
-class bankaccount:
-    def __init__(self,with_balance):
-        self._with_balance = with_balance
+class BankAccount:
+    def __init__(self, balance):
+        self._balance = 0
+        self.balance = balance
 
     @property
-    def with_balance(self):
-        return self._with_balance
+    def balance(self):
+        return self._balance
 
-    @ with_balance.setter
-    def with_balance(self,new_balance):
-        self._with_balance = new_balance
-        if new_balance > 0:
-            print('New Balance =',new_balance)
-            print('Accept The Positive Balance')
+    @balance.setter
+    def balance(self, new_balance):
+        if new_balance >= 0:
+            self._balance = new_balance
+            print("New Balance =", new_balance)
         else:
-            print('New Balance =',new_balance)
-            print('Not Accept The non-negative Balance')
+            print("Invalid Balance Rejected")
 
-obj = bankaccount(6000)
-print('Old Balance =',obj.with_balance)
-obj.with_balance = 500
+
+obj = BankAccount(6000)
+print("Current Balance =", obj.balance)
+
+obj.balance = 500
+print("Current Balance =", obj.balance)
+
+obj.balance = 0
+print("Current Balance =", obj.balance)
+
+obj.balance = -100
+print("Current Balance =", obj.balance)
 
         

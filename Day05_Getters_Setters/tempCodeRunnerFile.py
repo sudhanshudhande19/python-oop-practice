@@ -1,0 +1,1 @@
+self._email = new_email
