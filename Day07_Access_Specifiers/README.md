@@ -619,20 +619,6 @@ Create a `BankAccount` class with:
 
 **Bonus:** Use `@property` for read-only access to the balance instead of a normal getter method.
 
----
-
-## 🧠 Concept Challenge
-
-Answer these questions in your own words:
-
-1. What is the difference between public, protected, and private attributes?
-2. Why is `_marks` still accessible outside the class?
-3. What is name mangling?
-4. Why should we avoid accessing private attributes through mangled names?
-5. How can getter and setter methods control updates to private data?
-6. Are double-underscore attributes a complete security mechanism?
-
-Write your answers in this README.
 
 ---
 
