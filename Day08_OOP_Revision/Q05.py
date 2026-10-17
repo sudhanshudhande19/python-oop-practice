@@ -8,11 +8,15 @@
 # Use @staticmethod
 
 class Calculator:
+    @staticmethod
     def is_even(number):
-        if number %2 == 0:
-            print('True')
-        else:
-            print('False')
+        return number % 2 == 0
+
 
 e = Calculator()
-e.is_even(5)
+
+print(e.is_even(2))
+print(e.is_even(5))
+print(e.is_even(10))
+print(e.is_even(13))
+print(e.is_even(24))
