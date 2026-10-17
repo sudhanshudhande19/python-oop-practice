@@ -6,6 +6,7 @@
     # Test at least five different numbers.
 
 # Use @staticmethod
+#-------------------------------------------------------------------------------------------------------
 
 class Calculator:
     @staticmethod
