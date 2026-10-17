@@ -30,6 +30,6 @@ e2 = rectangle(32,15)
 
 print('Area =',e1.area())
 print('Perimeter  =',e1.perimeter())
-
+print('-----------------------------------')
 print('Area =',e2.area())
 print('Perimeter  =',e2.perimeter())
