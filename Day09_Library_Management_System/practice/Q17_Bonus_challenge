@@ -1,0 +1,197 @@
+
+class Book:
+    def __init__(self, book_id, title, author, price):
+        self.book_id = book_id
+        self.title = title
+        self.author = author
+
+        if price <= 0:
+            raise ValueError("Price must be greater than zero")
+
+        self.price = price
+        self.__is_available = True
+
+    @property
+    def is_available(self):
+        return self.__is_available
+
+    def display_book(self):
+        print(f"Book ID: {self.book_id}")
+        print(f"Title: {self.title}")
+        print(f"Author: {self.author}")
+        print(f"Price: ₹{self.price}")
+        print(f"Available: {'Yes' if self.is_available else 'No'}")
+        print("-" * 35)
+
+    def borrow(self):
+        if self.__is_available:
+            self.__is_available = False
+            print("Book borrowed successfully!")
+        else:
+            print("Book is already borrowed.")
+
+    def return_book(self):
+        if not self.__is_available:
+            self.__is_available = True
+            print("Book returned successfully!")
+        else:
+            print("Book is already available.")
+
+
+class Library:
+    def __init__(self, name):
+        self.name = name
+        self.books = []
+
+    def add_book(self, book):
+        if self.search_by_id(book.book_id) is not None:
+            print("Error: Book ID already exists!")
+            return
+
+        self.books.append(book)
+        print("Book added successfully!")
+
+    def search_book(self, title):
+        found = False
+
+        for book in self.books:
+            if title.lower() in book.title.lower():
+                book.display_book()
+                found = True
+
+        if not found:
+            print("Book not found!")
+
+    def search_by_id(self, book_id):
+        for book in self.books:
+            if book.book_id == book_id:
+                return book
+
+        return None
+
+    def borrow_book(self, book_id):
+        book = self.search_by_id(book_id)
+
+        if book is not None:
+            book.borrow()
+        else:
+            print("Error: Book ID not found!")
+
+    def return_book(self, book_id):
+        book = self.search_by_id(book_id)
+
+        if book is not None:
+            book.return_book()
+        else:
+            print("Error: Book ID not found!")
+
+    def display_all_books(self):
+        if not self.books:
+            print("Library is empty.")
+            return
+
+        print(f"\nAll Books in {self.name}")
+        for book in self.books:
+            book.display_book()
+
+    def display_available_books(self):
+        found = False
+
+        print("\nAvailable Books:")
+        for book in self.books:
+            if book.is_available:
+                book.display_book()
+                found = True
+
+        if not found:
+            print("No books are currently available.")
+
+    def display_statistics(self):
+        total = len(self.books)
+        available = 0
+
+        for book in self.books:
+            if book.is_available:
+                available += 1
+
+        borrowed = total - available
+
+        print("\n===== LIBRARY STATISTICS =====")
+        print("Total Books:", total)
+        print("Available Books:", available)
+        print("Borrowed Books:", borrowed)
+
+
+def main():
+    library = Library("KCEM Library")
+
+    # Add five books
+    library.add_book(Book(101, "Python", "Amit", 500))
+    library.add_book(Book(102, "Java", "Rahul", 600))
+    library.add_book(Book(103, "AI and ML", "Priya", 700))
+    library.add_book(Book(104, "Data Science", "Neha", 450))
+    library.add_book(Book(105, "C++", "Rohan", 400))
+
+    while True:
+        print("\n===== LIBRARY MANAGEMENT SYSTEM =====")
+        print("1. Add Book")
+        print("2. Display All Books")
+        print("3. Search Book")
+        print("4. Borrow Book")
+        print("5. Return Book")
+        print("6. Display Available Books")
+        print("7. Display Statistics")
+        print("8. Exit")
+
+        choice = input("Enter your choice (1-8): ")
+
+        if choice == "1":
+            try:
+                book_id = int(input("Enter Book ID: "))
+                title = input("Enter Book Title: ")
+                author = input("Enter Author Name: ")
+                price = float(input("Enter Book Price: "))
+
+                book = Book(book_id, title, author, price)
+                library.add_book(book)
+
+            except ValueError as error:
+                print("Invalid input:", error)
+
+        elif choice == "2":
+            library.display_all_books()
+
+        elif choice == "3":
+            title = input("Enter title to search: ")
+            library.search_book(title)
+
+        elif choice == "4":
+            try:
+                book_id = int(input("Enter Book ID to borrow: "))
+                library.borrow_book(book_id)
+            except ValueError:
+                print("Please enter a valid numeric Book ID.")
+
+        elif choice == "5":
+            try:
+                book_id = int(input("Enter Book ID to return: "))
+                library.return_book(book_id)
+            except ValueError:
+                print("Please enter a valid numeric Book ID.")
+
+        elif choice == "6":
+            library.display_available_books()
+
+        elif choice == "7":
+            library.display_statistics()
+
+        elif choice == "8":
+            print("Thank you for using KCEM Library!")
+            break
+
+        else:
+            print("Invalid choice! Please select from 1 to 8.")
+
+
+if __name__ == "__main__":
+    main()
