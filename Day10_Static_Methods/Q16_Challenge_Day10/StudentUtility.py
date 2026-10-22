@@ -1,3 +1,17 @@
+# Create these static methods:
+
+    # calculate_discount(price, percent)
+    # calculate_final_price(price, percent)
+
+# Requirements:
+
+    # Reject negative prices.
+    # Accept percentages from 0 to 100.
+    # Calculate the discount amount.
+    # Calculate the final price after discount.
+    # Test multiple products.
+
+#-------------------------------------------------------------------------------------------------------
 class StudentUtility:
 
     @staticmethod

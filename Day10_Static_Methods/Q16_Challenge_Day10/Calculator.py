@@ -1,3 +1,16 @@
+# Create these static methods:
+
+    # add(a, b)
+    # subtract(a, b)
+    # multiply(a, b)
+    # divide(a, b)
+
+# Requirements:
+
+    # Return results instead of printing them inside every method.
+    # Handle division by zero appropriately.
+    # Test every operation.
+#------------------------------------------------------------------------------------------------
 class Calculator:
     @staticmethod
     def add(a,b):
