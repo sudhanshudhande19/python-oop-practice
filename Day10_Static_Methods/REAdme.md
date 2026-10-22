@@ -773,10 +773,11 @@ Day10_Static_Methods/
 ├── banner.svg
 ├── README.md
 ├── practice.py
-├── calculator.py
-├── student_utility.py
-├── price_utility.py
-└── main.py
+├── Q16_challege
+    ├── calculator.py
+    ├── student_utility.py
+    ├── price_utility.py
+
 ```
 
 ### File Responsibilities
@@ -862,5 +863,5 @@ git push
   <img src="https://img.shields.io/badge/Day%2010-Complete%20%E2%9C%85-22c55e?style=for-the-badge" alt="Day 10 complete"/>
 </p>
 
-<h3 align="center">⭐ Made with 💻 and ☕ by <b>Sudhanshu Dhande</b> ⭐</h3>
-<p align="center"><i>B.Tech CSE (AI &amp; ML) · BATU, Lonere · Python OOP Journey</i></p>
+<h3 align="center"><b>Sudhanshu Dhande</b></h3>
+<p align="center"><i>B.Tech(AI &amp; ML) · BATU, Lonere · Python OOP Journey</i></p>
