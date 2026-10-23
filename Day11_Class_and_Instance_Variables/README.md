@@ -813,18 +813,14 @@ Day11_Class_and_Instance_Variables/
 ├── banner.svg
 ├── README.md
 ├── practice.py
-├── employee.py
-└── main.py
 ```
 
 ### File Responsibilities
 
 - `practice.py` — solutions to Q1–Q15.
-- `employee.py` — contains the `Employee` class for the main challenge.
-- `main.py` — creates employees and tests the project.
 - `README.md` — contains theory answers, project explanation, and learning outcomes.
 
-**Beginner tip:** First write all the practice problems in `practice.py`. After they work, separate the main challenge into different files.
+**Beginner tip:** First write all the practice problems in `practice.py`. After they work, separate the main challenge .
 
 ---
 
