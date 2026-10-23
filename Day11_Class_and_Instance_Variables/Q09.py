@@ -26,7 +26,7 @@ class Employee:
         return (self.salary * Employee.bonus_rate) / 100
 
 
-s
+
 emp1 = Employee("Alice", 50000)
 emp2 = Employee("Bob", 60000)
 emp3 = Employee("Charlie", 70000)
