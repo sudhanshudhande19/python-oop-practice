@@ -934,8 +934,6 @@ Day12_OOP_Revision/
 
 - `theory_answers.md` — answers to the theory questions.
 - `practice.py` — solutions to Q1–Q15.
-- `college_management.py` — `Person`, `Student`, and `Teacher` classes.
-- `main.py` — runs and tests the main challenge.
 - `README.md` — project overview and learning outcomes.
 
 **Beginner tip:** Complete the main challenge in one Python file first. Split it into multiple files after the program works correctly.
