@@ -925,10 +925,9 @@ Day12_OOP_Revision/
 ├── README.md
 ├── theory_answers.md
 ├── practice.py
-├   ├──Q01
-├   ├──Q15
-├── college_management.py
-└── main.py
+   ├──Q01  
+   ├──Q15
+
 ```
 
 ### File Responsibilities
