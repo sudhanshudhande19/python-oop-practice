@@ -10,3 +10,19 @@
 
 
 
+import os 
+
+user = input('Enter The directory =')
+
+if os.path.exists(user) and os.path.isdir(user):
+
+    contents = os.listdir(user)
+
+    print('contents of directory :')
+
+    for item in contents:
+        print(item)
+
+else:
+    print('directory does not exist or the path is invalid')
+    
