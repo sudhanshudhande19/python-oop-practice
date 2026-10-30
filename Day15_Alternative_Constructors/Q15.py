@@ -1,114 +1,132 @@
-# Create a ShoppingCart class.
+# Create a Student class with:
+
+    # name
+    # roll_number
+    # marks
 
 # Requirements:
 
-    # Store items separately for each cart.
-    # Implement add_item(name, price, quantity).
-    # Implement remove_item(name).
-    # Implement calculate_total().
-    # Reject invalid prices and quantities.
-    # Create two cart objects and verify that their items do not mix.
+    # Create a regular constructor.
+    # Create from_string(data).
+    # Create from_dict(data).
+    # Create from_list(data).
+    # Use all four methods to create student objects.
+    # Display and compare their details.
+    # Validate the data consistently across all constructors.
 
-#-------------------------------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------
 
+class Student:
 
-
-class ShoppingCart:
-
-    def __init__(self):
-       
-        self.items = []
-
-    def add_item(self, name, price, quantity):
+    def __init__(self, name, roll_number, marks):
 
         if not isinstance(name, str) or not name.strip():
-            raise ValueError("Item name cannot be empty")
+            raise ValueError("Name must be a non-empty string")
 
-        if not isinstance(price, (int, float)) or isinstance(price, bool) or price <= 0:
-            raise ValueError("Price must be greater than zero")
+        if not isinstance(roll_number, int) or isinstance(roll_number, bool) or roll_number <= 0:
+            raise ValueError("Roll number must be a positive integer")
 
-        if not isinstance(quantity, int) or isinstance(quantity, bool) or quantity <= 0:
-            raise ValueError("Quantity must be a positive integer")
+        if not isinstance(marks, (int, float)) or isinstance(marks, bool):
+            raise ValueError("Marks must be numeric")
 
-        item = {
-            "name": name,
-            "price": price,
-            "quantity": quantity
-        }
+        if not 0 <= marks <= 100:
+            raise ValueError("Marks must be between 0 and 100")
 
-        self.items.append(item)
-        print(f"{name} added to cart!")
+        self.name = name.strip()
+        self.roll_number = roll_number
+        self.marks = marks
 
-    def remove_item(self, name):
+    # 1. Alternative constructor using String
+    @classmethod
+    def from_string(cls, data):
 
-        for item in self.items:
-            if item["name"].lower() == name.lower():
-                self.items.remove(item)
-                print(f"{name} removed from cart!")
-                return
+        parts = data.split(",")
 
-        print(f"{name} not found in cart.")
+        if len(parts) != 3:
+            raise ValueError("Format: Name,Roll_Number,Marks")
 
-    def calculate_total(self):
+        name, roll_number, marks = parts
 
-        total = 0
+        try:
+            return cls(
+                name.strip(),
+                int(roll_number.strip()),
+                float(marks.strip())
+            )
+        except ValueError as error:
+            raise ValueError(f"Invalid string data: {error}")
 
-        for item in self.items:
-            total += item["price"] * item["quantity"]
+    # 2. Alternative constructor using Dictionary
+    @classmethod
+    def from_dict(cls, data):
 
-        return total
+        try:
+            return cls(
+                data["name"],
+                data["roll_number"],
+                data["marks"]
+            )
+        except KeyError as error:
+            raise ValueError(f"Missing field: {error}")
 
-    def display_cart(self):
+    # 3. Alternative constructor using List
+    @classmethod
+    def from_list(cls, data):
 
-        print("\nShopping Cart")
+        if not isinstance(data, (list, tuple)) or len(data) != 3:
+            raise ValueError("List must contain name, roll_number, marks")
+
+        return cls(data[0], data[1], data[2])
+
+    # Display student details
+    def display(self):
+
+        print(f"Name        : {self.name}")
+        print(f"Roll Number : {self.roll_number}")
+        print(f"Marks       : {self.marks}")
         print("-" * 35)
 
-        if not self.items:
-            print("Cart is empty")
-            return
 
-        for item in self.items:
-            subtotal = item["price"] * item["quantity"]
+# 1. Regular Constructor
+s1 = Student("Sudhanshu", 101, 85)
 
-            print(f"Name: {item['name']}")
-            print(f"Price: ₹{item['price']}")
-            print(f"Quantity: {item['quantity']}")
-            print(f"Subtotal: ₹{subtotal}")
-            print("-" * 35)
+# 2. String Constructor
+s2 = Student.from_string("Kunal,102,90")
 
-        print(f"Total Amount: ₹{self.calculate_total()}")
+# 3. Dictionary Constructor
+s3 = Student.from_dict({
+    "name": "Kedar",
+    "roll_number": 103,
+    "marks": 78
+})
+
+# 4. List Constructor
+s4 = Student.from_list(["Aditya", 104, 88])
 
 
-# Create two separate cart objects
-cart1 = ShoppingCart()
-cart2 = ShoppingCart()
+# Display all students
+students = [s1, s2, s3, s4]
 
-# Add items to Cart 1
-cart1.add_item("Laptop", 50000, 1)
-cart1.add_item("Mouse", 500, 2)
+print("STUDENT DETAILS")
+for student in students:
+    student.display()
 
-# Add items to Cart 2
-cart2.add_item("Mobile", 20000, 1)
-cart2.add_item("Keyboard", 1000, 1)
 
-# Display both carts
-print("\n===== CART 1 =====")
-cart1.display_cart()
+# Compare student details
+print("\nSTUDENT COMPARISON")
 
-print("\n===== CART 2 =====")
-cart2.display_cart()
+for student in students:
+    print(
+        f"{student.name} | "
+        f"Roll No: {student.roll_number} | "
+        f"Marks: {student.marks}"
+    )
 
-# Remove an item from Cart 1
-cart1.remove_item("Mouse")
-
-print("\n===== CART 1 AFTER REMOVAL =====")
-cart1.display_cart()
-
-print("\n===== CART 2 CHECK =====")
-cart2.display_cart()
 
 # Test invalid input
+print("\nINVALID INPUT TEST")
+
 try:
-    cart1.add_item("Headphones", -500, 2)
+    s5 = Student.from_string("Rahul,105,150")
 except ValueError as error:
     print("Error:", error)
