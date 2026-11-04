@@ -18,10 +18,9 @@ class Student:
         self.marks =marks
 
     def __eq__(self, value):
-        return Student(self.marks + value.marks)
+        return Student(self.marks == value.marks)
 
 e = Student('Sudhanshu Dhande',66)
 
-total  = e == e
-
-print(total.marks)
+print(f'Name = {e.name}')
+print(f'Marks = {e.marks == e.marks}')
