@@ -10,13 +10,13 @@ class Number:
     def __init__(self,value):
         self.value = value
 
-    def __add__(self, other):
+    def __sub__(self, other):
         return Number(self.value - other.value)
 
 
 n1 = Number(20)
 n2 = Number(20)
 
-total = n1 + n2
+total = n1 - n2
 
 print(total.value)

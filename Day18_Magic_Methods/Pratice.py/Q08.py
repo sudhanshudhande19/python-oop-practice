@@ -1,8 +1,7 @@
 # create a Product class with:
 
-# price
-
-# quantity
+    # price
+    # quantity
 
 # Implement __mul__() to calculate the total cost when multiplying two compatible objects or a product by a supported numeric value. Clearly define the behavior you choose.
 
