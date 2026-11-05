@@ -12,5 +12,7 @@ class Developer(Employee):
         print("Developer is writing code")
 
 
+e= Employee()
 d = Developer()
+e.work()
 d.work()

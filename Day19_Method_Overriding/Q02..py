@@ -9,13 +9,16 @@ class Vehical:
 
 class Car(Vehical):
     def start(self):
-        super().start()
         print('1 Car Model is BMW')
 
 class Bike(Car):
     def start(self):
-        super().start()
         print('1 Bike Model is Holda')
 
+a = Vehical()
+b = Car()
 e = Bike()
+
+a.start()
+b.start()
 e.start()

@@ -9,15 +9,18 @@ class Bank:
 
 class SBI(Bank):
     def interest_rate(Self):
-        super().interest_rate()
         print(f'SBI Bank Interast Rate 18 %')
 
 class HDFC(SBI):
 
     def interest_rate(Self):
-        super().interest_rate()
         print(f'HDFC Bank Interest Rate 20 %')
 
 
+c = Bank()
+d = SBI()
 e = HDFC()
+
+c.interest_rate()
+d.interest_rate()
 e.interest_rate()

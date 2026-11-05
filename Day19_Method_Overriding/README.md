@@ -578,82 +578,75 @@ Create a `Vehicle` class with a `start()` method. Override it in `Car` and `Bike
 
 **Q3. Employee Salary**
 
-Create an `Employee` class with a `calculate_salary()` method. Override it in `Manager` and `Developer`.
-
+Create a parent class `Employee` with a `work()` method. Override it in `Developer`.
 **Q4. Shape Area**
 
-Create a `Shape` class with an `area()` method. Override it in `Rectangle` and `Circle`.
+Create a parent class `Shape` with an `area()` method. Override it in `Circle`.
 
 **Q5. Bank Interest**
 
-Create a `Bank` class with an `interest_rate()` method. Override it in `SBI`, `HDFC`, and `ICICI`.
+Create a parent class `Bank` with an `interest_rate() `method. Override it in `SBI` and `HDFC`.
 
 ### Part 2 — Overriding with `super()`
 
-**Q6. Person Details**
+**Q6.  Person and Student**
 
-Create a `Person` class with a `show_details()` method. Override it in `Student` and call the parent method using `super()`.
+Create a `Person` class with a `show_details() `method. Override it in `Student` and call the parent method using `super()`.
 
-**Q7. Employee Details**
+**Q7. Employee Salary**
 
-Create an `Employee` class with name and salary. Override its display method in `Manager` and display additional department information.
+Create an `Employee` class with a `calculate_salary() `method. Override it in `Manager` and add a `bonus`.
 
-**Q8. Product Details**
+**Q8. Animal Information**
 
-Create a `Product` class with a `show_info()` method. Override it in `ElectronicProduct` and add warranty information.
+Create an `Animal` class with an `info()` method. Override it in `Dog` and call the parent method.
 
-**Q9. University System**
+**Q9. Product Details**
 
-Create a `University` class with a `display()` method. Override it in `College` and `Department`, using `super()`.
+Create a `Product` class with a `display() `method. Override it in `ElectronicProduct`.
+**Q10. College Management**
 
-**Q10. Notification System**
-
-Create a `Notification` class with a `send()` method. Override it in `EmailNotification` and `SMSNotification`.
+Create a `College` class with a `college_info()` method. Override it in `Student` and display both parent and child information.
 
 ### Part 3 — Logic Building
 
 **Q11. Payment System**
 
-Create a `Payment` parent class. Override `pay()` in `UPIPayment`, `CardPayment`, and `CashPayment`.
+Create a parent class `Payment` with a `pay() `method. Override it in `UPIPayment`, `CardPayment`, and `CashPayment`.
 
-**Q12. Transport Fare**
+**Q12. Notification System**
 
-Create a `Transport` class with a `calculate_fare()` method. Override it in `Bus`, `Train`, and `Taxi`.
+Create a parent class `Notification` with a `send() `method. Override it in `EmailNotification` and `SMSNotification`.
+**Q13.  Transport Fare**
 
-**Q13. Library System**
+Create a parent class `Transport` with a `calculate_fare()` method. Override it in Bus, `Train`, and `Taxi`.
+**Q14.  Library System**
 
-Create a `LibraryItem` class with a `get_details()` method. Override it in `Book` and `Magazine`.
+Create a parent class `LibraryUser` with a `get_access()` method. Override it in `Student` and `Teacher` with different access permissions.
 
-**Q14. Food Ordering System**
+**Q15. Online Shopping**
 
-Create a `Food` class with a `prepare()` method. Override it in `Pizza`, `Burger`, and `Sandwich`.
+Create a parent class `Order` with a `calculate_total()` method. Override it in `RegularOrder` and `PremiumOrder` with different discount `rules`.
 
-**Q15. Student Result System**
+## 🏆 7. Main Challenge —Employee Management System
 
-Create a `Student` class with a `calculate_result()` method. Override it in `SchoolStudent` and `CollegeStudent`, using different passing criteria.
-
-## 🏆 7. Main Challenge — Online Shopping System
-
-Build an Online Shopping System using method overriding.
+Build an Online Employee Management System using method overriding.
 
 ### Requirements
 
-1. Create a parent class `Product`.
-2. Add product name and price.
-3. Create a method `calculate_discount()`.
+1. Create a parent class Employee.
+2. Store employee name and basic salary.
+3. Create a method calculate_salary().
 4. Create child classes:
-   - `Electronics`
-   - `Clothing`
-   - `Grocery`
-5. Override `calculate_discount()` in each child class.
-6. Use `super()` where appropriate.
-7. Display original price, discount, and final price.
-8. Create objects of all three child classes.
+    1. Manager
+    2. Developer
+    3. Intern
 
-**Bonus Challenge:**
-- Add a common method `display_details()`.
-- Use a loop to process different product objects.
-- Handle invalid or negative prices.
+5. Override calculate_salary() in each child class.
+6. Use different bonus or allowance rules   for each employee type.
+7. Use super() wherever appropriate.
+8. Display the salary of all employees.
+
 
 ## 🎤 8. OOP Interview Questions with Answers
 
@@ -800,7 +793,6 @@ Day19_Method_Overriding/
 ├── practice.py
 ├── overriding_examples.py
 ├── super_examples.py
-└── online_shopping_system.py
 ```
 
 ### File Responsibilities
@@ -810,7 +802,6 @@ Day19_Method_Overriding/
 - `practice.py` — Solutions to Q1–Q15.
 - `overriding_examples.py` — Extra examples of overriding and runtime polymorphism.
 - `super_examples.py` — Extra examples of overriding with `super()`.
-- `online_shopping_system.py` — Main challenge: Online Shopping System.
 - `README.md` — Learning notes and project details.
 
 **Beginner tip:** First run `theory.py` and say which class's method runs for each line. Then solve Q1–Q15, and finally build the Online Shopping System.

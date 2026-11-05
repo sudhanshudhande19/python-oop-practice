@@ -11,6 +11,7 @@ class Circle(Shape):
     def area(self):
         print("Area of Circle = πr²")
 
-
+s = Shape()
 c = Circle()
+s.area()
 c.area()
