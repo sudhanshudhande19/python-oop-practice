@@ -737,13 +737,6 @@ Create a `Number` class and overload the `+` operator.
 - Return the sum of both values.
 - Create two objects and add them using `+`.
 
-**Steps to Solve:**
-
-1. Create the class.
-2. Initialize the value using `__init__()`.
-3. Define `__add__(self, other)`.
-4. Add the values of both objects.
-5. Test using two objects.
 
 **Q2. Subtraction Calculator**
 
@@ -757,16 +750,6 @@ Create a `Calculator` class and overload the `-` operator.
 - Return the result.
 - Test with positive and negative results.
 
-**Steps to Solve:**
-
-1. Create a `Calculator` class.
-2. Add a constructor.
-3. Define the subtraction magic method.
-4. Access both object values.
-5. Perform subtraction and return the answer.
-
-**Q3. Multiplication of Objects**
-
 Create a `Number` class and overload `*`.
 
 **Requirements:**
@@ -776,14 +759,6 @@ Create a `Number` class and overload `*`.
 - Multiply two object values.
 - Return the result.
 - Test with different numbers.
-
-**Steps to Solve:**
-
-1. Initialize the object value.
-2. Create `__mul__()`.
-3. Receive another object.
-4. Multiply both values.
-5. Test using the `*` operator.
 
 **Q4. Division of Objects**
 
@@ -797,14 +772,6 @@ Create a `Number` class and overload `/`.
 - Handle division by zero.
 - Return the result.
 
-**Steps to Solve:**
-
-1. Create the class and constructor.
-2. Define `__truediv__()`.
-3. Check whether the second value is zero.
-4. Perform division if valid.
-5. Test normal and zero-division cases.
-
 **Q5. Equality Comparison**
 
 Create a `Student` class and overload `==`.
@@ -817,13 +784,6 @@ Create a `Student` class and overload `==`.
 - Return `True` if marks are equal.
 - Return `False` otherwise.
 
-**Steps to Solve:**
-
-1. Create the Student class.
-2. Initialize name and marks.
-3. Define `__eq__()`.
-4. Compare both objects' marks.
-5. Test using `s1 == s2`.
 
 ### 🟡 Level 2 — Intermediate Operator Overloading
 
@@ -839,14 +799,6 @@ Create an `Employee` class and overload `>`.
 - Return a Boolean result.
 - Identify the employee with the higher salary.
 
-**Steps to Solve:**
-
-1. Create the Employee class.
-2. Initialize employee details.
-3. Define `__gt__()`.
-4. Compare the salary attributes.
-5. Test using `e1 > e2`.
-
 **Q7. Vector Addition**
 
 Create a `Vector` class and overload `+`.
@@ -859,15 +811,6 @@ Create a `Vector` class and overload `+`.
 - Add the y coordinates separately.
 - Return a new Vector object.
 - Display the resulting vector.
-
-**Steps to Solve:**
-
-1. Create the Vector class.
-2. Initialize x and y.
-3. Define `__add__()`.
-4. Calculate the new x and y values.
-5. Return a new Vector object.
-6. Display the result.
 
 **Q8. Money Addition**
 
@@ -882,15 +825,6 @@ Create a `Money` class and overload `+`.
 - Return a new Money object.
 - Handle different currencies safely.
 
-**Steps to Solve:**
-
-1. Create the Money class.
-2. Initialize amount and currency.
-3. Define `__add__()`.
-4. Compare both currencies.
-5. Add amounts only if currencies match.
-6. Test with same and different currencies.
-
 **Q9. Product Price Comparison**
 
 Create a `Product` class and overload `<`.
@@ -902,14 +836,6 @@ Create a `Product` class and overload `<`.
 - Compare two product prices.
 - Return a Boolean result.
 - Find the cheaper product.
-
-**Steps to Solve:**
-
-1. Create the Product class.
-2. Initialize product details.
-3. Define `__lt__()`.
-4. Compare the prices.
-5. Test using `p1 < p2`.
 
 **Q10. Fraction Addition**
 
@@ -923,15 +849,6 @@ Create a `Fraction` class and overload `+`.
 - Calculate a common denominator.
 - Return a new Fraction object.
 - Handle a zero denominator during initialization.
-
-**Steps to Solve:**
-
-1. Create the Fraction class.
-2. Initialize numerator and denominator.
-3. Define `__add__()`.
-4. Calculate the new numerator and denominator.
-5. Return a new Fraction object.
-6. Test with different fractions.
 
 ### 🔴 Level 3 — Advanced Logic Building
 
@@ -949,16 +866,6 @@ Create a `ShoppingCart` class and overload `+`.
 - Return a new ShoppingCart object.
 - Do not modify the original carts.
 
-**Steps to Solve:**
-
-1. Create the ShoppingCart class.
-2. Initialize the product list and total.
-3. Define `__add__()`.
-4. Combine both product lists.
-5. Calculate the combined total.
-6. Return a new cart.
-7. Test with two different customers' carts.
-
 **Q12. Bank Account Comparison**
 
 Create a `BankAccount` class and overload `>` and `==`.
@@ -970,14 +877,6 @@ Create a `BankAccount` class and overload `>` and `==`.
 - Define `__gt__()` to compare balances.
 - Define `__eq__()` to compare balances.
 - Test two different accounts.
-
-**Steps to Solve:**
-
-1. Create the BankAccount class.
-2. Initialize account details.
-3. Define both comparison methods.
-4. Compare balances.
-5. Test greater-than and equality operations.
 
 **Q13. Distance Addition**
 
@@ -992,15 +891,6 @@ Create a `Distance` class and overload `+`.
 - Return a new Distance object.
 - Display the final normalized distance.
 
-**Steps to Solve:**
-
-1. Create the Distance class.
-2. Initialize kilometers and meters.
-3. Define `__add__()`.
-4. Add both distances.
-5. Normalize meters when they reach 1000.
-6. Return a new object.
-
 **Q14. Time Addition**
 
 Create a `Time` class and overload `+`.
@@ -1014,15 +904,6 @@ Create a `Time` class and overload `+`.
 - Return a new Time object.
 - Display the final time.
 
-**Steps to Solve:**
-
-1. Create the Time class.
-2. Initialize hours and minutes.
-3. Define `__add__()`.
-4. Add the hours and minutes.
-5. Normalize minutes when they reach 60.
-6. Return a new object.
-
 **Q15. Custom Collection**
 
 Create a `Playlist` class and overload `+`, `len()`, and `in`.
@@ -1035,15 +916,6 @@ Create a `Playlist` class and overload `+`, `len()`, and `in`.
 - Define `__contains__()` to search for songs.
 - Return a new Playlist when combining two playlists.
 - Test all three operations.
-
-**Steps to Solve:**
-
-1. Create the Playlist class.
-2. Initialize the songs list.
-3. Define `__add__()` to combine playlists.
-4. Define `__len__()` to count songs.
-5. Define `__contains__()` to check a song.
-6. Create two playlists and test the operations.
 
 ---
 
@@ -1302,16 +1174,15 @@ Day22_Operator_Overloading/
 │   └── magic_methods.py
 │
 ├── practice/
-│   ├── basic_operations.py
-│   ├── comparison_operators.py
-│   └── advanced_operations.py
+│   ├── Q01 / Q15.py
+│   
+│   
 │
 ├── project/
-│   ├── product.py
-│   ├── shopping_cart.py
-│   └── main.py
-│
-└── requirements.txt
+    ├── shopping_cart.py
+   
+
+
 ```
 
 ### File Responsibilities
@@ -1321,9 +1192,7 @@ Day22_Operator_Overloading/
 - `basic_operations.py` — Q1–Q5.
 - `comparison_operators.py` — Q6–Q9.
 - `advanced_operations.py` — Q10–Q15.
-- `product.py` — Product class.
 - `shopping_cart.py` — ShoppingCart class.
-- `main.py` — Run the final project.
 - `README.md` — Learning notes and project documentation.
 
 **Beginner tip:** First run `theory/magic_methods.py` and say which magic method each line triggers. Then solve Q1–Q15, and finally build the `Product` and `ShoppingCart` classes.
