@@ -1,0 +1,60 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="80" y1="20" x2="1510" y2="510" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#071A2D"/><stop offset=".52" stop-color="#142B52"/><stop offset="1" stop-color="#30145B"/>
+  </linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#67E8F9"/><stop offset="1" stop-color="#0EA5E9"/>
+  </linearGradient>
+  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#C4B5FD"/><stop offset="1" stop-color="#7C3AED"/>
+  </linearGradient>
+  <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#99F6E4"/><stop offset="1" stop-color="#14B8A6"/>
+  </linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="12"/>
+    <feOffset dy="15"/>
+    <feComponentTransfer><feFuncA type="linear" slope=".45"/></feComponentTransfer>
+    <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+    <path d="M42 0H0V42" stroke="#93C5FD" stroke-opacity=".10" stroke-width="1"/>
+  </pattern>
+</defs>
+<rect width="1600" height="520" rx="30" fill="url(#bg)"/>
+<rect width="1600" height="520" rx="30" fill="url(#grid)"/>
+<circle cx="1320" cy="105" r="230" fill="#7C3AED" opacity=".14"/>
+<circle cx="150" cy="500" r="250" fill="#06B6D4" opacity=".10"/>
+<path d="M0 420C330 350 480 520 820 420C1120 330 1320 450 1600 340V520H0V420Z" fill="#020617" opacity=".25"/>
+<!-- 3D capability blocks -->
+<g filter="url(#shadow)">
+  <path d="M1110 185L1235 115L1360 185L1235 258L1110 185Z" fill="#0B4261" stroke="#67E8F9" stroke-width="2"/>
+  <path d="M1110 185L1235 258V365L1110 292V185Z" fill="#075985"/>
+  <path d="M1235 258L1360 185V292L1235 365V258Z" fill="#0E7490"/>
+  <path d="M1280 115L1405 45L1530 115L1405 188L1280 115Z" fill="#382078" stroke="#C4B5FD" stroke-width="2"/>
+  <path d="M1280 115L1405 188V295L1280 222V115Z" fill="#4C1D95"/>
+  <path d="M1405 188L1530 115V222L1405 295V188Z" fill="#6D28D9"/>
+  <path d="M1010 300L1110 242L1210 300L1110 358L1010 300Z" fill="#075E54" stroke="#99F6E4" stroke-width="2"/>
+  <path d="M1010 300L1110 358V443L1010 385V300Z" fill="#0F766E"/>
+  <path d="M1110 358L1210 300V385L1110 443V358Z" fill="#0D9488"/>
+</g>
+<g fill="none" stroke-width="3" filter="url(#glow)">
+  <path d="M1235 258L1235 365" stroke="#67E8F9"/>
+  <path d="M1405 188L1405 295" stroke="#C4B5FD"/>
+  <path d="M1110 358L1110 443" stroke="#99F6E4"/>
+</g>
+<g font-family="Segoe UI, Arial, sans-serif">
+  <text x="105" y="115" fill="#67E8F9" font-size="25" font-weight="700" letter-spacing="7">PYTHON • OBJECT ORIENTED PROGRAMMING</text>
+  <text x="95" y="255" fill="#FFFFFF" font-size="112" font-weight="900" letter-spacing="-4">DAY 24</text>
+  <text x="105" y="330" fill="#C4B5FD" font-size="48" font-weight="800">MULTIPLE INHERITANCE</text>
+  <text x="108" y="390" fill="#D1D5DB" font-size="25">One child class. Multiple parent classes. One powerful design.</text>
+  <rect x="105" y="430" width="360" height="4" rx="2" fill="url(#cyan)"/>
+  <text x="105" y="475" fill="#A5F3FC" font-size="19" letter-spacing="3">LEARN  •  PRACTISE  •  BUILD</text>
+</g>
+<g fill="#E0F2FE" opacity=".9">
+  <circle cx="925" cy="85" r="4"/><circle cx="980" cy="135" r="3"/><circle cx="875" cy="180" r="3"/>
+  <circle cx="1500" cy="390" r="4"/><circle cx="1450" cy="435" r="3"/><circle cx="980" cy="470" r="3"/>
+</g>
+</svg>
