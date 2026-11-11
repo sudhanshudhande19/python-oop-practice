@@ -1,0 +1,30 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="80" y1="10" x2="1510" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#071B2D"/><stop offset=".52" stop-color="#142A50"/><stop offset="1" stop-color="#32145B"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A5F3FC"/><stop offset="1" stop-color="#0891B2"/></linearGradient>
+  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#DDD6FE"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+  <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#99F6E4"/><stop offset="1" stop-color="#0D9488"/></linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="170%" height="190%"><feGaussianBlur in="SourceAlpha" stdDeviation="12"/><feOffset dy="16"/><feComponentTransfer><feFuncA type="linear" slope=".45"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" stroke="#93C5FD" stroke-opacity=".10"/></pattern>
+</defs>
+<rect width="1600" height="520" rx="30" fill="url(#bg)"/><rect width="1600" height="520" rx="30" fill="url(#grid)"/>
+<circle cx="1320" cy="100" r="240" fill="#7C3AED" opacity=".15"/><circle cx="180" cy="500" r="240" fill="#06B6D4" opacity=".10"/>
+<path d="M0 425C330 350 510 515 850 420C1140 340 1330 450 1600 340V520H0V425Z" fill="#020617" opacity=".28"/>
+<g filter="url(#shadow)">
+  <path d="M1000 150L1115 84L1230 150L1115 217L1000 150Z" fill="url(#cyan)" stroke="#CFFAFE" stroke-width="2"/><path d="M1000 150L1115 217V318L1000 251V150Z" fill="#075985"/><path d="M1115 217L1230 150V251L1115 318V217Z" fill="#0E7490"/>
+  <path d="M1160 275L1275 209L1390 275L1275 342L1160 275Z" fill="url(#violet)" stroke="#EDE9FE" stroke-width="2"/><path d="M1160 275L1275 342V427L1160 360V275Z" fill="#5B21B6"/><path d="M1275 342L1390 275V360L1275 427V342Z" fill="#6D28D9"/>
+  <path d="M1330 120L1430 62L1530 120L1430 178L1330 120Z" fill="url(#mint)" stroke="#CCFBF1" stroke-width="2"/><path d="M1330 120L1430 178V264L1330 206V120Z" fill="#0F766E"/><path d="M1430 178L1530 120V206L1430 264V178Z" fill="#0D9488"/>
+</g>
+<g stroke-width="3" fill="none" filter="url(#glow)"><path d="M1115 217V318" stroke="#67E8F9"/><path d="M1275 342V427" stroke="#C4B5FD"/><path d="M1430 178V264" stroke="#99F6E4"/><path d="M1115 318L1275 342" stroke="#A5F3FC" stroke-dasharray="7 8"/></g>
+<g font-family="Segoe UI, Arial, sans-serif">
+  <text x="100" y="112" fill="#67E8F9" font-size="25" font-weight="700" letter-spacing="7">PYTHON • OBJECT ORIENTED PROGRAMMING</text>
+  <text x="90" y="255" fill="#FFFFFF" font-size="112" font-weight="900" letter-spacing="-4">DAY 25</text>
+  <text x="100" y="330" fill="#C4B5FD" font-size="43" font-weight="800">MULTILEVEL INHERITANCE</text>
+  <text x="103" y="390" fill="#D1D5DB" font-size="25">Grandparent → Parent → Child</text>
+  <rect x="100" y="430" width="360" height="4" rx="2" fill="url(#cyan)"/>
+  <text x="100" y="475" fill="#A5F3FC" font-size="19" letter-spacing="3">LEARN  •  PRACTISE  •  BUILD</text>
+  <text x="1005" y="370" fill="#A5F3FC" font-size="17" font-weight="700">GRANDPARENT</text><text x="1175" y="475" fill="#DDD6FE" font-size="17" font-weight="700">PARENT</text><text x="1360" y="300" fill="#99F6E4" font-size="17" font-weight="700">CHILD</text>
+</g>
+<g fill="#E0F2FE" opacity=".9"><circle cx="920" cy="85" r="4"/><circle cx="960" cy="135" r="3"/><circle cx="890" cy="190" r="3"/><circle cx="1510" cy="420" r="4"/><circle cx="1450" cy="465" r="3"/><circle cx="980" cy="470" r="3"/></g>
+</svg>
