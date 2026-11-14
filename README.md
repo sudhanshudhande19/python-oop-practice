@@ -1,38 +1,38 @@
 <p align="center">
-  <img src="banner.svg" alt="Python OOP Mastery - 30 Day Job-Ready Roadmap" width="100%"/>
+  <img src="banner.svg" alt="Python OOP and Advanced Python Mastery - 48 Day Roadmap" width="100%"/>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python"/>
-  <img src="https://img.shields.io/badge/Focus-OOP-8b5cf6?style=for-the-badge" alt="OOP"/>
-  <img src="https://img.shields.io/badge/Duration-30%20Days-f59e0b?style=for-the-badge" alt="30 Days"/>
-  <img src="https://img.shields.io/badge/Problems-370%2B-6366f1?style=for-the-badge" alt="370+ Problems"/>
-  <img src="https://img.shields.io/badge/Projects-6-10b981?style=for-the-badge" alt="6 Projects"/>
+  <img src="https://img.shields.io/badge/Focus-OOP%20%2B%20Advanced%20Python-8b5cf6?style=for-the-badge" alt="Focus"/>
+  <img src="https://img.shields.io/badge/Duration-48%20Days-f59e0b?style=for-the-badge" alt="48 Days"/>
+  <img src="https://img.shields.io/badge/Projects-10-10b981?style=for-the-badge" alt="10 Projects"/>
+  <img src="https://img.shields.io/badge/Progress-Day%2024%20%2F%2048-6366f1?style=for-the-badge" alt="Progress"/>
   <img src="https://img.shields.io/badge/Status-In%20Progress-f97316?style=for-the-badge" alt="In Progress"/>
 </p>
 
 <p align="center">
-  <b>Learn → Practice → Build → Push → Revise</b>
+  <b>Learn → Understand → Practice → Build → Debug → Push → Revise</b>
 </p>
 
-This repository contains my **30-Day Python OOP Practice Journey**.
+This repository contains my **48-Day Python OOP and Advanced Python Learning Journey**, based on the **CodeWithHarry Python course**.
 
-The goal is not only to complete the videos, but to build strong **Object-Oriented Programming skills through daily coding practice, problem solving, projects, and GitHub contributions.**
+The roadmap covers Python OOP fundamentals, advanced OOP, inheritance, magic methods, advanced Python modules, concurrency, real-world projects, and technical interview preparation.
+
+My goal is not just to watch tutorials. I will write code myself, solve problems, build projects, and maintain my GitHub contributions.
 
 ---
 
-## 🎯 Goals
+## 🎯 Main Goals
 
-By completing this roadmap, I aim to:
-
-* Understand Python OOP concepts from basics to advanced
-* Solve **10–15 coding problems every day**
-* Build real-world OOP projects
-* Improve problem-solving and logical thinking
-* Prepare for Python/OOP technical interviews
-* Write clean and structured Python code
-* Maintain a consistent GitHub coding history
-* Become more confident in using OOP in AI/ML projects
+- Understand Python OOP from beginner to advanced level.
+- Learn advanced Python concepts and modules.
+- Solve 10–15 practice problems on learning days.
+- Improve logical thinking and debugging skills.
+- Build real-world Python projects.
+- Prepare for Python technical interviews.
+- Write clean, reusable, and maintainable code.
+- Understand how OOP can be used in AI/ML projects.
 
 ---
 
@@ -40,9 +40,11 @@ By completing this roadmap, I aim to:
 
 | | |
 | --- | --- |
-| **Course** | CodeWithHarry — Python for Beginners (Full Course) \| #100DaysOfCode Programming Tutorial in Hindi |
+| **Course** | CodeWithHarry — Python for Beginners (Full Course) |
 | **Playlist** | [Watch on YouTube](https://youtube.com/playlist?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg) |
-| **OOP starts at** | Around Day 57 of the course |
+| **OOP part** | Roadmap Day 01 – Day 48 |
+| **Advanced Python part** | Roadmap Day 27 – Day 44 |
+| **Projects + Interview** | Roadmap Day 45 – Day 48 |
 
 ---
 
@@ -50,63 +52,55 @@ By completing this roadmap, I aim to:
 
 ```mermaid
 flowchart LR
-    A["🟢 Phase 1<br/>Fundamentals<br/>Day 1-3"] --> B["🟡 Phase 2<br/>Decorators,<br/>Encapsulation &<br/>Inheritance<br/>Day 4-8"]
+    A["🟢 Phase 1<br/>OOP Basics<br/>Day 1-3"] --> B["🟡 Phase 2<br/>Decorators,<br/>Encapsulation &<br/>Inheritance<br/>Day 4-8"]
     B --> C["🔵 Phase 3<br/>Practical OOP<br/>Day 9-13"]
     C --> D["🟠 Phase 4<br/>Advanced OOP<br/>Day 14-20"]
     D --> E["🔴 Phase 5<br/>Operators &<br/>Inheritance Types<br/>Day 21-26"]
-    E --> F["🟣 Phase 6<br/>Interview Prep<br/>Day 27"]
-    F --> G["🏆 Phase 7<br/>Job-Ready<br/>Projects<br/>Day 28-30"]
+    E --> F["🟣 Phase 6<br/>Advanced Python<br/>Day 27-44"]
+    F --> G["🚀 Phase 7<br/>Major Projects<br/>Day 45-47"]
+    G --> H["🏆 Phase 8<br/>Interview Prep<br/>Day 48"]
 ```
 
 | Phase | Days | Focus | Outcome |
 | :-- | :-: | :-- | :-- |
-| 🟢 Fundamentals | 01–03 | Classes, objects, constructors, `self` | Can create and use classes |
-| 🟡 Decorators, Encapsulation & Inheritance | 04–08 | Decorators, getters/setters, inheritance, access specifiers | Can protect data and reuse code |
+| 🟢 OOP Fundamentals | 01–03 | Classes, objects, constructors, `self` | Can create and use classes |
+| 🟡 Decorators, Encapsulation & Inheritance | 04–08 | Decorators, properties, inheritance, access specifiers | Can protect data and reuse code |
 | 🔵 Practical OOP | 09–13 | Static methods, variables, mini projects | First real projects |
-| 🟠 Advanced OOP | 14–20 | Class methods, `super()`, dunder methods, overriding | Writes Pythonic classes |
-| 🔴 Operators & Inheritance Types | 21–26 | Operator overloading, all inheritance types, PDF project | Understands class hierarchies |
-| 🟣 Interview Prep | 27 | Polymorphism, abstraction, 30+ interview questions | Interview ready |
-| 🏆 Job-Ready Projects | 28–30 | Banking, E-Commerce, Student Management | Portfolio projects |
+| 🟠 Advanced OOP | 14–20 | Class methods, `super()`, magic methods, overriding | Writes Pythonic classes |
+| 🔴 Operators & Inheritance Types | 21–26 | PDF project, operator overloading, all inheritance types | Understands class hierarchies |
+| 🟣 Advanced Python | 27–44 | Time, `shutil`, `requests`, generators, caching, regex, async, threads, processes | Works with Python's powerful modules |
+| 🚀 Major Projects | 45–47 | Banking, E-Commerce, Student Management | Portfolio projects |
+| 🏆 Interview Prep | 48 | OOP + advanced Python questions, project explanation | Interview ready |
 
 ---
 
-## 🗺️ 30-Day OOP Roadmap
+## 🗺️ Complete 48-Day Roadmap
 
 ## 🟢 Phase 1 — OOP Fundamentals
 
 ### Day 01 — Classes & Objects
-
-**Topics**
-
-* Class
-* Object
-* Attributes
-* Methods
-* `self`
-* Creating multiple objects
+- Classes
+- Objects
+- Attributes
+- Methods
+- `self`
+- Multiple objects
 
 **Practice:** 15 problems
 
 ### Day 02 — Constructors
-
-**Topics**
-
-* `__init__`
-* Constructor
-* Constructor arguments
-* Instance variables
-* Default values
+- `__init__()`
+- Constructor arguments
+- Instance variables
+- Default values
 
 **Practice:** 15 problems
 
-### Day 03 — `self` & Constructor Practice
-
-**Focus**
-
-* Understanding `self`
-* Instance data
-* Multiple objects
-* Constructor-based programs
+### Day 03 — Self & Constructor Practice
+- Understanding `self`
+- Instance data
+- Multiple objects
+- Constructor-based programs
 
 **Practice:** 15 problems
 
@@ -115,62 +109,45 @@ flowchart LR
 ## 🟡 Phase 2 — Decorators, Encapsulation & Inheritance
 
 ### Day 04 — Decorators
-
-**Topics**
-
-* Functions as objects
-* Nested functions
-* Decorators
-* Wrapper functions
-* `@decorator`
+- Functions as objects
+- Nested functions
+- Wrapper functions
+- Decorators
+- `@decorator`
 
 **Practice:** 10–12 problems
 
 ### Day 05 — Getters & Setters
-
-**Topics**
-
-* Getter
-* Setter
-* Property
-* Encapsulation
-* Controlled access to data
+- Getter
+- Setter
+- `@property`
+- Encapsulation
+- Controlled access to data
 
 **Practice:** 15 problems
 
 ### Day 06 — Inheritance
-
-**Topics**
-
-* Parent class
-* Child class
-* Code reusability
-* Inherited methods
+- Parent class
+- Child class
+- Code reusability
+- Inherited methods
 
 **Practice:** 15 problems
 
 ### Day 07 — Access Specifiers
-
-**Topics**
-
-* Public
-* Protected
-* Private
-* Name mangling
+- Public
+- Protected
+- Private
+- Name mangling
 
 **Practice:** 12–15 problems
 
 ### Day 08 — OOP Revision
-
-**Topics**
-
-* Classes
-* Objects
-* Constructors
-* Getters
-* Setters
-* Inheritance
-* Access specifiers
+- Classes and objects
+- Constructors
+- Getters and setters
+- Inheritance
+- Access specifiers
 
 **Practice:** 20 mixed problems
 
@@ -180,428 +157,639 @@ flowchart LR
 
 ### Day 09 — Library Management System
 
-**Build a mini project using OOP.**
+Build a mini project using:
 
 **Classes**
-
-* `Book`
-* `Library`
-* `Student`
+- `Book`
+- `Library`
+- `Student`
 
 **Features**
-
-* Add book
-* Remove book
-* Search book
-* Issue book
-* Return book
-* Display books
+- Add and remove books
+- Search books
+- Issue books
+- Return books
+- Display available books
 
 ### Day 10 — Static Methods
-
-**Topics**
-
-* `@staticmethod`
-* Static methods
-* Instance method vs static method
+- `@staticmethod`
+- Static methods
+- Instance method vs static method
 
 **Practice:** 12 problems
 
 ### Day 11 — Class Variables & Instance Variables
-
-**Topics**
-
-* Instance variables
-* Class variables
-* Shared data
-* Object-specific data
-* Overriding class attributes
+- Instance variables
+- Class variables
+- Shared data
+- Object-specific data
+- Overriding class attributes
 
 **Practice:** 15 problems
 
 ### Day 12 — OOP Revision
+- Class vs object
+- Instance vs class variables
+- Static methods
+- Inheritance
+- Encapsulation
 
 **Practice:** 20 mixed problems
 
-**Focus**
-
-* Class vs object
-* Instance vs class variables
-* Static methods
-* Inheritance
-* Encapsulation
-
-### Day 13 — Practical Python Project
-
-Build a **File Organizer**.
+### Day 13 — File Organizer Project
 
 **Features**
+- Detect file types
+- Create folders
+- Move files
+- Organize files automatically
 
-* Detect file types
-* Create folders
-* Move files
-* Organize files automatically
-
-Focus on using classes to structure the program.
+**Focus:** Using classes to structure a practical program (`pathlib`, `shutil`, error handling).
 
 ---
 
 ## 🟠 Phase 4 — Advanced OOP
 
 ### Day 14 — Class Methods
-
-**Topics**
-
-* `@classmethod`
-* `cls`
-* Class-level operations
+- `@classmethod`
+- `cls`
+- Class-level operations
 
 **Practice:** 12 problems
 
 ### Day 15 — Alternative Constructors
+- Alternative constructors
+- `@classmethod`
+- Creating objects from different data formats
 
-**Topics**
-
-* Alternative constructors
-* `@classmethod`
-* Creating objects from different data formats
+**Examples**
+- `Student.from_string()`
+- `Product.from_dict()`
+- `Employee.from_csv()`
 
 **Practice:** 10–12 problems
 
-Examples:
-
-* `Student.from_string()`
-* `Product.from_dict()`
-* `Employee.from_csv()`
-
 ### Day 16 — Object Inspection
-
-**Topics**
-
-* `dir()`
-* `__dict__`
-* `help()`
-* Object attributes
-* Class attributes
+- `dir()`
+- `__dict__`
+- `help()`
+- Object attributes
+- Class attributes
 
 **Practice:** 10 problems
 
 ### Day 17 — `super()`
-
-**Topics**
-
-* Parent constructor
-* Parent methods
-* `super()`
-* Parent-child relationships
+- Parent constructor
+- Parent methods
+- `super()`
+- Parent-child relationships
 
 **Practice:** 15 problems
 
 ### Day 18 — Dunder / Magic Methods
-
-**Topics**
-
-* `__init__`
-* `__str__`
-* `__repr__`
-* `__len__`
-* `__add__`
-* `__eq__`
+- `__init__()`
+- `__str__()`
+- `__repr__()`
+- `__len__()`
+- `__add__()`
+- `__eq__()`
 
 **Practice:** 15 problems
 
 ### Day 19 — Method Overriding
-
-**Topics**
-
-* Parent methods
-* Child methods
-* Method overriding
-* Runtime behavior
+- Parent methods
+- Child methods
+- Method overriding
+- Runtime behavior
 
 **Practice:** 15 problems
 
 ### Day 20 — Complete OOP Revision
 
+**Revise**
+- Classes and objects
+- Constructors
+- Getters and setters
+- Inheritance
+- `super()`
+- Class and instance variables
+- Static and class methods
+- Method overriding
+- Magic methods
+
 **Practice:** 25 mixed problems
-
-**Concepts covered**
-
-* Classes
-* Objects
-* Constructors
-* Getters
-* Setters
-* Inheritance
-* `super()`
-* Class variables
-* Instance variables
-* Static methods
-* Class methods
-* Method overriding
-* Dunder methods
 
 ---
 
 ## 🔴 Phase 5 — Operators & Inheritance Types
 
 ### Day 21 — PDF Management Project
-
-Build a small **PDF Management System** using Python and OOP.
+Build a PDF Management System.
 
 **Focus**
-
-* Classes
-* Methods
-* External libraries
-* File handling
-* Project structure
+- Classes and methods
+- External libraries (installed with `pip`, for example `pypdf`)
+- File handling
+- Project structure
 
 ### Day 22 — Operator Overloading
+- `__add__()`
+- `__sub__()`
+- `__mul__()`
+- `__eq__()`
+- `__lt__()`
+- `__gt__()`
 
-**Topics**
-
-* `__add__`
-* `__sub__`
-* `__mul__`
-* `__eq__`
-* `__lt__`
-* `__gt__`
+**Practice examples**
+- Money + Money
+- Point + Point
+- Distance + Distance
+- Time + Time
+- Student comparison
 
 **Practice:** 15 problems
-
-Examples:
-
-* Money + Money
-* Point + Point
-* Distance + Distance
-* Time + Time
-* Student comparison
 
 ### Day 23 — Single Inheritance
 
+**Examples**
+- Animal → Dog
+- Vehicle → Car
+- Person → Student
+- Employee → Manager
+
 **Practice:** 15 problems
 
-Examples:
-
-```text
-Animal → Dog
-Vehicle → Car
-Person → Student
-Employee → Manager
-```
-
 ### Day 24 — Multiple Inheritance
-
-**Topics**
-
-* Multiple parent classes
-* Multiple inheritance
-* Method resolution
+- Multiple parent classes
+- Multiple inheritance
+- Method resolution
+- MRO basics
 
 **Practice:** 10–12 problems
 
 ### Day 25 — Multilevel Inheritance
 
-Example:
+**Example**
 
 ```text
 Animal
-   ↓
+   │
 Mammal
-   ↓
-Dog
+   │
+  Dog
 ```
 
 **Practice:** 12 problems
 
 ### Day 26 — Hierarchical & Hybrid Inheritance
+- Hierarchical inheritance
+- Hybrid inheritance
+- Multiple inheritance combinations
+- MRO basics
 
-**Topics**
+**Extra interview topics (not covered earlier in the course sequence)**
+- Polymorphism (revision)
+- Abstraction (`ABC`, `@abstractmethod`)
+- Composition vs aggregation (has-a relationship)
 
-* Hierarchical inheritance
-* Hybrid inheritance
-* Multiple inheritance combinations
-* MRO basics
-
-**Practice:** 10–15 problems
+**Practice:** 10–15 problems + 5 problems on polymorphism, abstraction and composition
 
 ---
 
-## 🟣 Phase 6 — Interview Preparation
+## 🟣 Phase 6 — Advanced Python (CodeWithHarry Course Day 83–100)
 
-### Day 27 — Polymorphism, Abstraction & OOP Interview Preparation
+This phase covers the advanced Python topics from the second half of the course.
 
-**Part A — Concepts not covered earlier (learn first)**
+### Day 27 — Shoutouts to Everyone (Exercise 9)
+**Course Video:** Day 83
 
-These topics are common in interviews but are not part of the earlier days, so I will learn them first.
+- Understand the Exercise 9 problem.
+- Analyze the requirements.
+- Plan the program logic.
+- Build the shoutout program.
+- Practice functions, loops, and string handling as required.
 
-* Polymorphism
-* Abstraction (`ABC`, `@abstractmethod`)
-* Composition (has-a relationship)
-* Aggregation
+**Challenge:** Complete Exercise 9 independently.
+
+### Day 28 — Time Module
+**Course Video:** Day 84
+
+- `time` module
+- `time.time()`
+- `time.sleep()`
+- `time.localtime()`
+- Working with time
+- Measuring execution time
+
+**Practice:** 10–12 problems
+
+### Day 29 — Creating Command Line Utility
+**Course Video:** Day 85
+
+- Command-line programs
+- User input through terminal
+- Command-line arguments (`sys.argv`, `argparse`)
+- Building a command-line utility
+- Handling user choices
 
 **Practice:** 10 problems
 
-**Part B — Interview questions**
+### Day 30 — Walrus Operator
+**Course Video:** Day 86
 
-Prepare at least **30 conceptual + coding questions**.
+- Walrus operator `:=` (Python 3.8+)
+- Assignment expressions
+- Using expressions in conditions
+- Using the operator in loops
+- Difference between `=` and `:=`
 
-**Topics**
+**Practice:** 10–12 problems
 
-* What is OOP?
-* Class vs Object
-* `self`
-* Constructor
-* Instance variable
-* Class variable
-* Static method
-* Class method
-* Getter & Setter
-* Encapsulation
-* Inheritance
-* Polymorphism
-* Abstraction
-* Method overriding
-* Operator overloading
-* `super()`
-* MRO
-* Dunder methods
-* Public / Protected / Private
-* Decorators
-* Composition
-* Aggregation
+### Day 31 — Shutil Module
+**Course Video:** Day 87
+
+- `shutil` module
+- Copy files
+- Move files
+- Copy folders
+- Remove folders
+- File and directory operations
+
+**Practice:** 10–12 problems
+
+### Day 32 — Exercise 9 Solution
+**Course Video:** Day 88
+
+- Review the Exercise 9 solution.
+- Compare the solution with your own logic.
+- Understand mistakes.
+- Improve the code.
+- Rewrite the complete solution without copying.
+
+**Challenge:** Make your Exercise 9 code cleaner and reusable.
+
+### Day 33 — Requests Module
+**Course Video:** Day 89
+
+- `requests` library (install with `pip install requests`)
+- HTTP requests
+- GET request
+- Response status code
+- Response text
+- JSON response
+- Working with APIs
+
+**Practice:** 10–12 problems
+
+### Day 34 — Exercise 10: News App
+**Course Video:** Day 90
+
+- Understand the News App problem.
+- Work with the Requests module.
+- Understand API responses.
+- Read JSON data.
+- Display news information.
+- Handle possible request errors.
+
+**Challenge:** Build your own News App.
+
+### Day 35 — Generators in Python
+**Course Video:** Day 91
+
+- Generators
+- `yield`
+- `next()`
+- Generator functions
+- Generator expressions
+- Iterator vs generator
+- Memory-efficient iteration
+
+**Practice:** 12–15 problems
+
+### Day 36 — Function Caching
+**Course Video:** Day 92
+
+- Function caching
+- `functools`
+- `lru_cache`
+- Cached function results
+- Understanding repeated function calls
+- Performance improvement
+
+**Practice:** 10–12 problems
+
+### Day 37 — Exercise 10 Solution & Shoutout
+**Course Video:** Day 93
+
+- Review the News App solution.
+- Understand API integration.
+- Compare your implementation.
+- Improve error handling.
+- Refactor repeated code.
+- Rewrite the project independently.
+
+**Challenge:** Complete and document your News App.
+
+### Day 38 — Drink Water Reminder
+**Course Video:** Day 94
+
+- Understand reminder logic.
+- Work with time intervals.
+- Display reminder messages.
+- Repeat reminders.
+- Use appropriate Python modules.
+
+**Challenge:** Build a Drink Water Reminder application.
+
+### Day 39 — Regular Expressions
+**Course Video:** Day 95
+
+- Regular expressions
+- `re` module
+- `re.search()`
+- `re.findall()`
+- `re.match()`
+- `re.sub()`
+- Pattern matching
+- Basic email and phone validation
+
+**Practice:** 15 problems
+
+### Day 40 — AsyncIO in Python
+**Course Video:** Day 96
+
+- Asynchronous programming
+- `async`
+- `await`
+- `asyncio` module
+- Coroutines
+- Event loop
+- Concurrent asynchronous tasks
+
+**Practice:** 10–12 problems
+
+### Day 41 — Multithreading in Python
+**Course Video:** Day 97
+
+- Threading
+- `threading` module
+- Creating threads
+- Starting threads
+- Joining threads
+- Concurrent execution
+- Basic thread synchronization
+
+**Practice:** 10–12 problems
+
+### Day 42 — Multiprocessing in Python
+**Course Video:** Day 98
+
+- Multiprocessing
+- `multiprocessing` module
+- Creating processes
+- Process execution
+- Joining processes
+- Parallel execution
+- Threading vs multiprocessing
+
+**Practice:** 10–12 problems
+
+### Day 43 — Exercise 11 Solution: Desktop Notification System
+**Course Video:** Day 99
+
+- Understand the Exercise 11 solution.
+- Learn desktop notification logic.
+- Understand the required notification library (for example `plyer`).
+- Display desktop notifications.
+- Configure notification title and message.
+- Handle notification timing.
+
+**Challenge:** Build your own Desktop Notification System.
+
+### Day 44 — Course Conclusion & Complete Revision
+**Course Video:** Day 100
+
+- Revise the complete Python course journey.
+- Review OOP concepts.
+- Review advanced Python modules.
+- Review generators and caching.
+- Review regular expressions.
+- Review AsyncIO, multithreading, and multiprocessing.
+- Identify weak topics.
+- Prepare a personal revision list.
+
+**Challenge:** Explain the concepts you learned without looking at notes.
 
 ---
 
-## 🚀 Phase 7 — Job-Ready Projects
+## 🚀 Phase 7 — Major Real-World OOP Projects
 
-### Day 28 — Banking Management System
+These projects come after all the learning and practice topics.
 
-**Classes**
-
-```text
-Bank
-Account
-SavingsAccount
-CurrentAccount
-Customer
-```
-
-**Features**
-
-* Create account
-* Deposit money
-* Withdraw money
-* Check balance
-* Transfer money
-* Display account details
-
-### Day 29 — E-Commerce Management System
+### Day 45 — Banking Management System
 
 **Classes**
-
-```text
-Product
-Customer
-Cart
-Order
-Payment
-```
+- `Bank`
+- `Account`
+- `SavingsAccount`
+- `CurrentAccount`
+- `Customer`
 
 **Features**
+- Create account
+- Deposit money
+- Withdraw money
+- Check balance
+- Transfer money
+- Display account details
+- Validate transactions
 
-* Add product
-* Remove product
-* Add to cart
-* Remove from cart
-* Calculate total
-* Apply discount
-* Place order
-* Payment processing
+**Concepts**
+- Classes and objects
+- Encapsulation
+- Inheritance
+- Method overriding
+- Class methods
+- Exception handling
 
-### 🏆 Day 30 — Student Management System
+### Day 46 — E-Commerce Management System
 
 **Classes**
-
-```text
-Person
-Student
-Teacher
-Course
-Result
-College
-```
+- `Product`
+- `Customer`
+- `Cart`
+- `Order`
+- `Payment`
 
 **Features**
+- Add product
+- Remove product
+- Add to cart
+- Remove from cart
+- Calculate total
+- Apply discount
+- Place order
+- Process payment
 
-* Add student
-* Add teacher
-* Add course
-* Add marks
-* Calculate percentage
-* Calculate grade
-* Search student
-* Display result
+**Concepts**
+- OOP
+- Encapsulation
+- Composition
+- Inheritance
+- Operator overloading
+- File handling
 
-This project should combine almost all the OOP concepts learned during the roadmap.
+### Day 47 — Student Management System
+
+**Classes**
+- `Person`
+- `Student`
+- `Teacher`
+- `Course`
+- `Result`
+- `College`
+
+**Features**
+- Add student
+- Add teacher
+- Add course
+- Add marks
+- Calculate percentage
+- Calculate grade
+- Search student
+- Display result
+
+**Concepts**
+- Complete OOP revision
+- Inheritance
+- Polymorphism
+- Encapsulation
+- Class methods
+- File handling
+
+---
+
+## 🏆 Phase 8 — Final Interview Preparation
+
+### Day 48 — Complete Python OOP & Advanced Python Interview Preparation
+
+Prepare for technical interviews covering:
+
+**OOP Fundamentals**
+- What is OOP?
+- Class vs Object
+- `self`
+- Constructor
+- Instance variable vs class variable
+- Static method vs class method
+
+**OOP Principles**
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
+- Method overriding
+- Method overloading concepts
+
+**Advanced OOP**
+- `super()`
+- MRO
+- Multiple inheritance
+- Hybrid inheritance
+- Magic methods
+- Operator overloading
+- Composition vs aggregation
+- Decorators
+- Properties
+
+**Advanced Python**
+- Walrus operator
+- Time module
+- Shutil module
+- Requests module
+- Generators
+- Function caching
+- Regular expressions
+- AsyncIO
+- Multithreading
+- Multiprocessing
+
+**Coding Interview Practice**
+- 30+ conceptual questions
+- 20+ coding problems
+- 5 debugging problems
+- 5 OOP design problems
+- Project explanation practice
+
+**Final Challenge:** Explain and demonstrate your three major projects without copying code or reading the README.
 
 ---
 
 ## 📊 Daily Practice Target
 
-| Day Type            |           Problems |
-| ------------------- | -----------------: |
-| Normal Learning Day |              10–15 |
-| Revision Day        |              20–25 |
-| Interview Day       |                30+ |
-| Project Day         | 1 complete project |
+| Day Type | Target |
+|---|---:|
+| Normal learning | 10–15 problems |
+| Revision | 20–25 problems |
+| Advanced Python | 10–15 problems |
+| Project day | 1 working project |
+| Interview preparation | 30+ questions |
 
-**Target:** approximately **370–385 coding problems and 6 projects in 30 days.**
+**Overall target:** approximately **450+ practice problems**, **10 projects**, and a complete set of interview questions in 48 days. The exact total depends on the problems completed each day.
+
+---
+
+## 🛠️ Projects You Will Build
+
+| # | Project | Day | Type |
+| :-: | -------- | :-: | ---- |
+| 1 | Library Management System | 09 | Mini project |
+| 2 | File Organizer | 13 | Mini project |
+| 3 | PDF Management System | 21 | Mini project |
+| 4 | Command Line Utility | 29 | Mini project |
+| 5 | News App | 34 / 37 | Mini project |
+| 6 | Drink Water Reminder | 38 | Mini project |
+| 7 | Desktop Notification System | 43 | Mini project |
+| 8 | Banking Management System | 45 | Major project |
+| 9 | E-Commerce Management System | 46 | Major project |
+| 10 | Student Management System | 47 | Major project |
 
 ---
 
 ## 🧠 Problem-Solving Rules
 
-I will follow these rules throughout the journey:
-
 ### Rule 1 — Don't Copy Code
-
-I will first understand the concept and then write the code myself.
+Understand the concept and write the code yourself.
 
 ### Rule 2 — Try Before Seeing the Solution
 
-For every problem:
-
 ```text
-Understand
-    ↓
-Think about logic
-    ↓
-Write code
-    ↓
-Run code
-    ↓
-Debug
-    ↓
-Improve
+Understand the question
+        ↓
+Think about the logic
+        ↓
+Write the code
+        ↓
+Run the program
+        ↓
+Find and debug errors
+        ↓
+Improve the code
 ```
 
 ### Rule 3 — If Stuck
-
-I will:
-
-1. Read the question again
-2. Write the logic in simple words
-3. Try the code myself
-4. Identify the error
-5. Take a hint if required
-6. Look at the solution only as a last option
-7. Close the solution and rewrite it myself
+1. Read the question again.
+2. Write the logic in simple words.
+3. Break the problem into small steps.
+4. Try the code yourself.
+5. Identify the error.
+6. Ask for a hint if required.
+7. Check the solution only as a last option.
+8. Close the solution and rewrite it yourself.
 
 ---
 
-## 📁 Repository Structure
+## 📁 GitHub Repository Structure
 
 ```text
 python-oop-practice/
@@ -611,44 +799,67 @@ python-oop-practice/
 │
 ├── Day01_Classes_Objects/
 ├── Day02_Constructors/
-├── Day03_Self_Practice/
+├── Day03_Constructor_Object_Practice/
 ├── Day04_Decorators/
 ├── Day05_Getters_Setters/
 ├── Day06_Inheritance/
 ├── Day07_Access_Specifiers/
 ├── Day08_OOP_Revision/
-├── Day09_Library_Management/
+├── Day09_Library_Management_System/
 ├── Day10_Static_Methods/
-├── Day11_Class_Instance_Variables/
+├── Day11_Class_and_Instance_Variables/
 ├── Day12_OOP_Revision/
 ├── Day13_File_Organizer/
 ├── Day14_Class_Methods/
 ├── Day15_Alternative_Constructors/
 ├── Day16_Object_Inspection/
 ├── Day17_Super/
-├── Day18_Dunder_Methods/
+├── Day18_Magic_Methods/
 ├── Day19_Method_Overriding/
 ├── Day20_OOP_Revision/
-├── Day21_PDF_Project/
+├── Day21_PDF_Management/
 ├── Day22_Operator_Overloading/
 ├── Day23_Single_Inheritance/
 ├── Day24_Multiple_Inheritance/
 ├── Day25_Multilevel_Inheritance/
 ├── Day26_Hierarchical_Hybrid/
-├── Day27_Polymorphism_Abstraction_Interview/
-├── Day28_Banking_System/
-├── Day29_Ecommerce_System/
-└── Day30_Student_Management_System/
+│
+├── Day27_Exercise_9_Shoutouts/
+├── Day28_Time_Module/
+├── Day29_Command_Line_Utility/
+├── Day30_Walrus_Operator/
+├── Day31_Shutil_Module/
+├── Day32_Exercise_9_Solution/
+├── Day33_Requests_Module/
+├── Day34_Exercise_10_News_App/
+├── Day35_Generators/
+├── Day36_Function_Caching/
+├── Day37_Exercise_10_Solution/
+├── Day38_Drink_Water_Reminder/
+├── Day39_Regular_Expressions/
+├── Day40_AsyncIO/
+├── Day41_Multithreading/
+├── Day42_Multiprocessing/
+├── Day43_Desktop_Notification_System/
+├── Day44_Complete_Python_Revision/
+│
+├── Day45_Banking_Management_System/
+├── Day46_Ecommerce_Management_System/
+├── Day47_Student_Management_System/
+│
+└── Day48_OOP_Interview_Preparation/
 ```
+
+> 📌 Folder names start with a **capital `Day`** and a **two-digit number** (`Day01`, `Day02` … `Day48`) so GitHub shows them in the correct order.
 
 ---
 
 ## 📝 Daily Folder Format
 
-Practice days:
+**For normal learning days (OOP practice):**
 
 ```text
-Day01_Classes_Objects/
+Day14_Class_Methods/
 │
 ├── banner.svg
 ├── README.md
@@ -659,24 +870,41 @@ Day01_Classes_Objects/
 └── Q16_Challenge.py
 ```
 
-> Question files use two digits (`Q01`, `Q02`, … `Q15`) so GitHub shows them in the correct order.
-
-Project days:
+**For advanced Python days (modules and topics):**
 
 ```text
-Day28_Banking_System/
+Day28_Time_Module/
 │
+├── banner.svg
+├── README.md
+├── theory.py
+├── practice.py
+├── challenge.py
+└── screenshots/          # optional
+```
+
+**For major projects:**
+
+```text
+Day45_Banking_Management_System/
+│
+├── banner.svg
+├── README.md
 ├── main.py
 ├── models.py
-├── README.md
+├── services.py
+├── data/
+├── tests/
 └── requirements.txt
 ```
+
+> Use two-digit file names (`Q01`, `Q02` … `Q15`) so GitHub shows files in the correct order. Add a `requirements.txt` whenever a day uses an external library (`requests`, `pypdf`, `plyer`).
 
 ---
 
 ## 🔥 GitHub Workflow
 
-Every day I will push my work to GitHub.
+After completing each day:
 
 ```bash
 git add .
@@ -689,85 +917,112 @@ git push
 
 ```text
 Day 01: Classes and Objects practice
-Day 02: Constructors practice
-Day 03: Self and Object practice
+Day 13: File organizer using Python OOP
+Day 28: Time module practice
+Day 45: Banking management system
 ...
-Day 30: Student Management System
+Day 48: OOP interview preparation
 ```
 
 ---
 
 ## 📈 Progress Tracker
 
-| Day | Topic                                   | Practice | Project | Status |
-| --: | --------------------------------------- | -------: | :-----: | :----: |
-|  01 | Classes & Objects                       |       15 |    ❌    |    ✅   |
-|  02 | Constructors                            |       15 |    ❌    |    ✅   |
-|  03 | Self Practice                           |       15 |    ❌    |    ⬜   |
-|  04 | Decorators                              |    10–12 |    ❌    |    ⬜   |
-|  05 | Getters & Setters                       |       15 |    ❌    |    ⬜   |
-|  06 | Inheritance                             |       15 |    ❌    |    ⬜   |
-|  07 | Access Specifiers                       |    12–15 |    ❌    |    ⬜   |
-|  08 | Revision                                |       20 |    ❌    |    ⬜   |
-|  09 | Library Management                      |        — |    ✅    |    ⬜   |
-|  10 | Static Methods                          |       12 |    ❌    |    ⬜   |
-|  11 | Class & Instance Variables              |       15 |    ❌    |    ⬜   |
-|  12 | Revision                                |       20 |    ❌    |    ⬜   |
-|  13 | File Organizer                          |        — |    ✅    |    ⬜   |
-|  14 | Class Methods                           |       12 |    ❌    |    ⬜   |
-|  15 | Alternative Constructors                |    10–12 |    ❌    |    ⬜   |
-|  16 | Object Inspection                       |       10 |    ❌    |    ⬜   |
-|  17 | `super()`                               |       15 |    ❌    |    ⬜   |
-|  18 | Dunder Methods                          |       15 |    ❌    |    ⬜   |
-|  19 | Method Overriding                       |       15 |    ❌    |    ⬜   |
-|  20 | Revision                                |       25 |    ❌    |    ⬜   |
-|  21 | PDF Project                             |        — |    ✅    |    ⬜   |
-|  22 | Operator Overloading                    |       15 |    ❌    |    ⬜   |
-|  23 | Single Inheritance                      |       15 |    ❌    |    ⬜   |
-|  24 | Multiple Inheritance                    |    10–12 |    ❌    |    ⬜   |
-|  25 | Multilevel Inheritance                  |       12 |    ❌    |    ⬜   |
-|  26 | Hierarchical & Hybrid                   |    10–15 |    ❌    |    ⬜   |
-|  27 | Polymorphism, Abstraction & Interview   |  10 + 30+ |    ❌    |    ⬜   |
-|  28 | Banking System                          |        — |    ✅    |    ⬜   |
-|  29 | E-Commerce System                       |        — |    ✅    |    ⬜   |
-|  30 | Student Management System               |        — |    ✅    |    ⬜   |
+**Overall progress:** Day 24 of 48
 
-> ✅ Done · ⬜ Pending
+```text
+██████████░░░░░░░░░░  48%   (23 of 48 days completed)
+```
+
+| Day | Topic | Type | Status |
+| --: | ----- | :--: | :----: |
+| 01 | Classes & Objects | 📘 | ✅ |
+| 02 | Constructors | 📘 | ✅ |
+| 03 | Self & Constructor Practice | 📘 | ✅ |
+| 04 | Decorators | 📘 | ✅ |
+| 05 | Getters & Setters | 📘 | ✅ |
+| 06 | Inheritance | 📘 | ✅ |
+| 07 | Access Specifiers | 📘 | ✅ |
+| 08 | OOP Revision | 🔁 | ✅ |
+| 09 | Library Management System | 🛠️ | ✅ |
+| 10 | Static Methods | 📘 | ✅ |
+| 11 | Class & Instance Variables | 📘 | ✅ |
+| 12 | OOP Revision | 🔁 | ✅ |
+| 13 | File Organizer | 🛠️ | ✅ |
+| 14 | Class Methods | 📘 | ✅ |
+| 15 | Alternative Constructors | 📘 | ✅ |
+| 16 | Object Inspection | 📘 | ✅ |
+| 17 | `super()` | 📘 | ✅ |
+| 18 | Magic / Dunder Methods | 📘 | ✅ |
+| 19 | Method Overriding | 📘 | ✅ |
+| 20 | Complete OOP Revision | 🔁 | ✅ |
+| 21 | PDF Management Project | 🛠️ | ✅ |
+| 22 | Operator Overloading | 📘 | ✅ |
+| 23 | Single Inheritance | 📘 | ✅ |
+| 24 | Multiple Inheritance | 📘 | 🟡 |
+| 25 | Multilevel Inheritance | 📘 | ⬜ |
+| 26 | Hierarchical & Hybrid Inheritance | 📘 | ⬜ |
+| 27 | Exercise 9 — Shoutouts | 🛠️ | ⬜ |
+| 28 | Time Module | 📘 | ⬜ |
+| 29 | Command Line Utility | 🛠️ | ⬜ |
+| 30 | Walrus Operator | 📘 | ⬜ |
+| 31 | Shutil Module | 📘 | ⬜ |
+| 32 | Exercise 9 Solution | 🔁 | ⬜ |
+| 33 | Requests Module | 📘 | ⬜ |
+| 34 | Exercise 10 — News App | 🛠️ | ⬜ |
+| 35 | Generators | 📘 | ⬜ |
+| 36 | Function Caching | 📘 | ⬜ |
+| 37 | News App Solution | 🔁 | ⬜ |
+| 38 | Drink Water Reminder | 🛠️ | ⬜ |
+| 39 | Regular Expressions | 📘 | ⬜ |
+| 40 | AsyncIO | 📘 | ⬜ |
+| 41 | Multithreading | 📘 | ⬜ |
+| 42 | Multiprocessing | 📘 | ⬜ |
+| 43 | Desktop Notification System | 🛠️ | ⬜ |
+| 44 | Complete Revision | 🔁 | ⬜ |
+| 45 | Banking Management System | 🛠️ | ⬜ |
+| 46 | E-Commerce Management System | 🛠️ | ⬜ |
+| 47 | Student Management System | 🛠️ | ⬜ |
+| 48 | OOP & Advanced Python Interview Preparation | 🎤 | ⬜ |
+
+> **Legend:** 📘 Learning · 🔁 Revision · 🛠️ Project · 🎤 Interview  |  ✅ Done · 🟡 In progress · ⬜ Pending
 
 ---
 
 ## 🎯 Final Goal
 
-After completing this roadmap, I should be able to:
+After completing this 48-day roadmap, I aim to:
 
-* Design classes independently
-* Understand and use OOP concepts confidently
-* Solve OOP-based coding problems
-* Build real-world Python applications
-* Explain OOP concepts in interviews
-* Read and understand existing Python OOP code
-* Write cleaner and reusable Python code
-* Use OOP concepts in future AI/ML projects
+- Understand Python OOP concepts deeply.
+- Work confidently with advanced Python modules.
+- Build real-world Python applications.
+- Understand APIs and HTTP requests.
+- Use generators and caching.
+- Understand asynchronous and parallel execution.
+- Solve OOP-based coding problems independently.
+- Explain projects in technical interviews.
+- Write clean, reusable, and maintainable Python code.
+- Apply OOP concepts in future AI/ML projects.
 
 ---
 
-## 🚀 My OOP Journey
+## 🚀 My Python Learning Journey
 
 | | |
 | --- | --- |
-| **Start** | Day 01 |
-| **Duration** | 30 Days |
-| **Daily Practice** | 10–15 Problems |
-| **Major Projects** | 6 |
-| **Target** | Python OOP + Problem Solving + Interview Readiness |
+| **Duration** | 48 Days |
+| **Learning Source** | CodeWithHarry Python Course |
+| **Main Focus** | Python OOP + Advanced Python |
+| **Projects** | 10 (7 mini projects + 3 major projects) |
+| **Final Target** | Strong Python foundations, project development, problem-solving, and interview readiness |
 
 > **Consistency > Speed**
 >
-> **Don't just watch the code. Write the code.**
+> **Don't just watch the code. Understand it and write it yourself.**
 >
-> **Learn → Practice → Build → Push → Repeat.**
+> **Learn → Practice → Build → Debug → Push → Repeat.**
 
 ---
 
-<h3 align="center"><b>Sudhanshu Dhande</b> </h3>
-<p align="center"><i>B.Tech(AI &amp; ML) · BATU, Lonere · Python OOP Journey</i></p>
+<h3 align="center"><b>Sudhanshu Dhande</b></h3>
+<p align="center"><i>B.Tech CSE (AI &amp; ML) · BATU, Lonere · Python OOP &amp; Advanced Python Journey</i></p>
