@@ -435,8 +435,6 @@ Solve all questions independently. Follow the requirements and steps.
 **Requirements:**
 - Create one parent class `Animal`.
 - Create three child classes: `Dog`, `Cat`, and `Cow`.
-
-**Steps to Solve:**
 1. Add an `eat()` method in Animal.
 2. Add a `bark()` method in Dog.
 3. Add a `meow()` method in Cat.
@@ -461,8 +459,6 @@ Cow is mooing
 **Requirements:**
 - Create Person as the parent class.
 - Create Student, Teacher, and Employee as child classes.
-
-**Steps to Solve:**
 1. Store name and age in Person.
 2. Student stores roll number.
 3. Teacher stores subject.
@@ -484,8 +480,6 @@ Employee: Raj, Age: 28, Salary: 40000
 **Requirements:**
 - Create Vehicle as the parent class.
 - Create Car, Bike, and Bus as child classes.
-
-**Steps to Solve:**
 1. Vehicle should have a `start()` method.
 2. Car should have a `four_wheels()` method.
 3. Bike should have a `two_wheels()` method.
@@ -510,8 +504,6 @@ Bus carries passengers
 **Requirements:**
 - Create Employee parent class.
 - Create three child classes.
-
-**Steps to Solve:**
 1. Store employee name and basic salary in Employee.
 2. Manager stores team size.
 3. Developer stores programming language.
@@ -532,8 +524,6 @@ Designer: Priya, Salary: 45000, Tool: Figma
 **Requirements:**
 - Create BankAccount parent class.
 - Create SavingsAccount and CurrentAccount child classes.
-
-**Steps to Solve:**
 1. Store account holder and balance in BankAccount.
 2. SavingsAccount stores interest rate.
 3. CurrentAccount stores overdraft limit.
@@ -558,8 +548,6 @@ Overdraft Limit: 20000
 **Requirements:**
 - Create Shape as parent class.
 - Create Circle, Rectangle, and Triangle child classes.
-
-**Steps to Solve:**
 1. Circle stores radius.
 2. Rectangle stores length and width.
 3. Triangle stores base and height.
@@ -580,8 +568,6 @@ Triangle Area: 25
 **Requirements:**
 - Create Product parent class.
 - Create three child classes.
-
-**Steps to Solve:**
 1. Product stores name and price.
 2. Electronics stores warranty.
 3. Clothing stores size.
@@ -602,8 +588,6 @@ Table: 5000, Material: Wood
 **Requirements:**
 - Create Payment parent class.
 - Create CreditCard, UPI, and Cash child classes.
-
-**Steps to Solve:**
 1. Add a `pay()` method in Payment.
 2. Override `pay()` in each child class.
 3. Give each child class a different payment message.
@@ -625,8 +609,6 @@ Payment using Cash
 - Create Person as parent class.
 - Student and Employee inherit from Person.
 - WorkingStudent inherits from Student and Employee.
-
-**Steps to Solve:**
 1. Person stores name and age.
 2. Student stores roll number.
 3. Employee stores company name.
@@ -650,8 +632,6 @@ Company: ABC Company
 - Create Device as parent.
 - Computer and Mobile inherit from Device.
 - SmartDevice inherits from Computer and Mobile.
-
-**Steps to Solve:**
 1. Device stores brand.
 2. Computer stores RAM.
 3. Mobile stores battery capacity.
@@ -673,8 +653,6 @@ Battery: 5000 mAh
 - Create University as parent.
 - Student and Professor inherit from University.
 - ResearchStudent inherits from Student and Professor.
-
-**Steps to Solve:**
 1. University stores university name.
 2. Student stores roll number.
 3. Professor stores department.
@@ -698,8 +676,6 @@ Research Topic: Artificial Intelligence
 - Create Person as the common parent.
 - Student and Employee inherit from Person.
 - Intern inherits from Student and Employee.
-
-**Steps to Solve:**
 1. Person initializes name and age.
 2. Student initializes roll number.
 3. Employee initializes employee ID.
@@ -724,8 +700,6 @@ Internship Duration: 3 Months
 - Create Organization.
 - Create Department inheriting from Organization.
 - Create Manager and Developer inheriting from Department.
-
-**Steps to Solve:**
 1. Organization stores company name.
 2. Department stores department name.
 3. Manager stores team size.
@@ -750,8 +724,6 @@ Developer Language: Python
 - Create Account as common parent.
 - SavingsAccount and CurrentAccount inherit from Account.
 - PremiumSavingsAccount inherits from SavingsAccount and CurrentAccount.
-
-**Steps to Solve:**
 1. Account stores holder name and balance.
 2. SavingsAccount defines an interest method.
 3. CurrentAccount defines a transaction method.
@@ -775,8 +747,6 @@ Premium Interest: 7000
 - Create College as the common parent class.
 - Create Student and Teacher child classes.
 - Create TeachingAssistant inheriting from Student and Teacher.
-
-**Steps to Solve:**
 1. College stores college name and location.
 2. Student stores roll number and marks.
 3. Teacher stores subject and salary.
