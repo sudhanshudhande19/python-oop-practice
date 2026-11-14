@@ -15,7 +15,7 @@
   <b>Learn → Understand → Practice → Build → Debug → Push → Revise</b>
 </p>
 
-This repository contains my **48-Day Python OOP and Advanced Python Learning Journey**, based on the **CodeWithHarry Python course**.
+This repository contains my **47-Day Python OOP and Advanced Python Learning Journey**, based on the **CodeWithHarry Python course**.
 
 The roadmap covers Python OOP fundamentals, advanced OOP, inheritance, magic methods, advanced Python modules, concurrency, real-world projects, and technical interview preparation.
 
@@ -68,13 +68,13 @@ flowchart LR
 | 🔵 Practical OOP | 09–13 | Static methods, variables, mini projects | First real projects |
 | 🟠 Advanced OOP | 14–20 | Class methods, `super()`, magic methods, overriding | Writes Pythonic classes |
 | 🔴 Operators & Inheritance Types | 21–26 | PDF project, operator overloading, all inheritance types | Understands class hierarchies |
-| 🟣 Advanced Python | 27–44 | Time, `shutil`, `requests`, generators, caching, regex, async, threads, processes | Works with Python's powerful modules |
-| 🚀 Major Projects | 45–47 | Banking, E-Commerce, Student Management | Portfolio projects |
-| 🏆 Interview Prep | 48 | OOP + advanced Python questions, project explanation | Interview ready |
+| 🟣 Advanced Python | 27–43 | Time, `shutil`, `requests`, generators, caching, regex, async, threads, processes | Works with Python's powerful modules |
+| 🚀 Major Projects | 44–46 | Banking, E-Commerce, Student Management | Portfolio projects |
+| 🏆 Interview Prep | 47 | OOP + advanced Python questions, project explanation | Interview ready |
 
 ---
 
-## 🗺️ Complete 48-Day Roadmap
+## 🗺️ Complete 47-Day Roadmap
 
 ## 🟢 Phase 1 — OOP Fundamentals
 
@@ -356,23 +356,11 @@ Mammal
 
 ---
 
-## 🟣 Phase 6 — Advanced Python (CodeWithHarry Course Day 83–100)
+## 🟣 Phase 6 — Advanced Python 
 
 This phase covers the advanced Python topics from the second half of the course.
 
-### Day 27 — Shoutouts to Everyone (Exercise 9)
-**Course Video:** Day 83
-
-- Understand the Exercise 9 problem.
-- Analyze the requirements.
-- Plan the program logic.
-- Build the shoutout program.
-- Practice functions, loops, and string handling as required.
-
-**Challenge:** Complete Exercise 9 independently.
-
-### Day 28 — Time Module
-**Course Video:** Day 84
+### Day 27 — Time Module
 
 - `time` module
 - `time.time()`
@@ -381,10 +369,7 @@ This phase covers the advanced Python topics from the second half of the course.
 - Working with time
 - Measuring execution time
 
-**Practice:** 10–12 problems
-
-### Day 29 — Creating Command Line Utility
-**Course Video:** Day 85
+### Day 28 — Creating Command Line Utility
 
 - Command-line programs
 - User input through terminal
@@ -392,10 +377,7 @@ This phase covers the advanced Python topics from the second half of the course.
 - Building a command-line utility
 - Handling user choices
 
-**Practice:** 10 problems
-
-### Day 30 — Walrus Operator
-**Course Video:** Day 86
+### Day 29 — Walrus Operator
 
 - Walrus operator `:=` (Python 3.8+)
 - Assignment expressions
@@ -403,10 +385,7 @@ This phase covers the advanced Python topics from the second half of the course.
 - Using the operator in loops
 - Difference between `=` and `:=`
 
-**Practice:** 10–12 problems
-
-### Day 31 — Shutil Module
-**Course Video:** Day 87
+### Day 30 — Shutil Module
 
 - `shutil` module
 - Copy files
@@ -415,10 +394,7 @@ This phase covers the advanced Python topics from the second half of the course.
 - Remove folders
 - File and directory operations
 
-**Practice:** 10–12 problems
-
-### Day 32 — Exercise 9 Solution
-**Course Video:** Day 88
+### Day 31 — Exercise 9 Solution
 
 - Review the Exercise 9 solution.
 - Compare the solution with your own logic.
@@ -428,8 +404,7 @@ This phase covers the advanced Python topics from the second half of the course.
 
 **Challenge:** Make your Exercise 9 code cleaner and reusable.
 
-### Day 33 — Requests Module
-**Course Video:** Day 89
+### Day 32 — Requests Module
 
 - `requests` library (install with `pip install requests`)
 - HTTP requests
@@ -439,10 +414,7 @@ This phase covers the advanced Python topics from the second half of the course.
 - JSON response
 - Working with APIs
 
-**Practice:** 10–12 problems
-
-### Day 34 — Exercise 10: News App
-**Course Video:** Day 90
+### Day 33 — Exercise 10: News App
 
 - Understand the News App problem.
 - Work with the Requests module.
@@ -453,8 +425,7 @@ This phase covers the advanced Python topics from the second half of the course.
 
 **Challenge:** Build your own News App.
 
-### Day 35 — Generators in Python
-**Course Video:** Day 91
+### Day 34 — Generators in Python
 
 - Generators
 - `yield`
@@ -464,10 +435,7 @@ This phase covers the advanced Python topics from the second half of the course.
 - Iterator vs generator
 - Memory-efficient iteration
 
-**Practice:** 12–15 problems
-
-### Day 36 — Function Caching
-**Course Video:** Day 92
+### Day 35 — Function Caching
 
 - Function caching
 - `functools`
@@ -478,8 +446,8 @@ This phase covers the advanced Python topics from the second half of the course.
 
 **Practice:** 10–12 problems
 
-### Day 37 — Exercise 10 Solution & Shoutout
-**Course Video:** Day 93
+### Day 36 — Exercise 10 Solution & Shoutout
+
 
 - Review the News App solution.
 - Understand API integration.
@@ -490,8 +458,8 @@ This phase covers the advanced Python topics from the second half of the course.
 
 **Challenge:** Complete and document your News App.
 
-### Day 38 — Drink Water Reminder
-**Course Video:** Day 94
+### Day 37 — Drink Water Reminder
+
 
 - Understand reminder logic.
 - Work with time intervals.
@@ -501,8 +469,8 @@ This phase covers the advanced Python topics from the second half of the course.
 
 **Challenge:** Build a Drink Water Reminder application.
 
-### Day 39 — Regular Expressions
-**Course Video:** Day 95
+### Day 38 — Regular Expressions
+
 
 - Regular expressions
 - `re` module
@@ -513,10 +481,7 @@ This phase covers the advanced Python topics from the second half of the course.
 - Pattern matching
 - Basic email and phone validation
 
-**Practice:** 15 problems
-
-### Day 40 — AsyncIO in Python
-**Course Video:** Day 96
+### Day 39 — AsyncIO in Python
 
 - Asynchronous programming
 - `async`
@@ -526,10 +491,7 @@ This phase covers the advanced Python topics from the second half of the course.
 - Event loop
 - Concurrent asynchronous tasks
 
-**Practice:** 10–12 problems
-
-### Day 41 — Multithreading in Python
-**Course Video:** Day 97
+### Day 40 — Multithreading in Python
 
 - Threading
 - `threading` module
@@ -539,10 +501,7 @@ This phase covers the advanced Python topics from the second half of the course.
 - Concurrent execution
 - Basic thread synchronization
 
-**Practice:** 10–12 problems
-
-### Day 42 — Multiprocessing in Python
-**Course Video:** Day 98
+### Day 41 — Multiprocessing in Python
 
 - Multiprocessing
 - `multiprocessing` module
@@ -552,10 +511,7 @@ This phase covers the advanced Python topics from the second half of the course.
 - Parallel execution
 - Threading vs multiprocessing
 
-**Practice:** 10–12 problems
-
-### Day 43 — Exercise 11 Solution: Desktop Notification System
-**Course Video:** Day 99
+### Day 42 — Exercise 11 Solution: Desktop Notification System
 
 - Understand the Exercise 11 solution.
 - Learn desktop notification logic.
@@ -566,8 +522,7 @@ This phase covers the advanced Python topics from the second half of the course.
 
 **Challenge:** Build your own Desktop Notification System.
 
-### Day 44 — Course Conclusion & Complete Revision
-**Course Video:** Day 100
+### Day 43 — Course Conclusion & Complete Revision
 
 - Revise the complete Python course journey.
 - Review OOP concepts.
@@ -586,7 +541,7 @@ This phase covers the advanced Python topics from the second half of the course.
 
 These projects come after all the learning and practice topics.
 
-### Day 45 — Banking Management System
+### Day 44 — Banking Management System
 
 **Classes**
 - `Bank`
@@ -612,7 +567,7 @@ These projects come after all the learning and practice topics.
 - Class methods
 - Exception handling
 
-### Day 46 — E-Commerce Management System
+### Day 45 — E-Commerce Management System
 
 **Classes**
 - `Product`
@@ -639,7 +594,7 @@ These projects come after all the learning and practice topics.
 - Operator overloading
 - File handling
 
-### Day 47 — Student Management System
+### Day 46 — Student Management System
 
 **Classes**
 - `Person`
@@ -671,7 +626,7 @@ These projects come after all the learning and practice topics.
 
 ## 🏆 Phase 8 — Final Interview Preparation
 
-### Day 48 — Complete Python OOP & Advanced Python Interview Preparation
+### Day 47 — Complete Python OOP & Advanced Python Interview Preparation
 
 Prepare for technical interviews covering:
 
@@ -735,7 +690,7 @@ Prepare for technical interviews covering:
 | Project day | 1 working project |
 | Interview preparation | 30+ questions |
 
-**Overall target:** approximately **450+ practice problems**, **10 projects**, and a complete set of interview questions in 48 days. The exact total depends on the problems completed each day.
+**Overall target:** approximately **450+ practice problems**, **10 projects**, and a complete set of interview questions in 47 days. The exact total depends on the problems completed each day.
 
 ---
 
@@ -750,9 +705,9 @@ Prepare for technical interviews covering:
 | 5 | News App | 34 / 37 | Mini project |
 | 6 | Drink Water Reminder | 38 | Mini project |
 | 7 | Desktop Notification System | 43 | Mini project |
-| 8 | Banking Management System | 45 | Major project |
-| 9 | E-Commerce Management System | 46 | Major project |
-| 10 | Student Management System | 47 | Major project |
+| 8 | Banking Management System | 44 | Major project |
+| 9 | E-Commerce Management System | 45 | Major project |
+| 10 | Student Management System | 46 | Major project |
 
 ---
 
@@ -824,33 +779,32 @@ python-oop-practice/
 ├── Day25_Multilevel_Inheritance/
 ├── Day26_Hierarchical_Hybrid/
 │
-├── Day27_Exercise_9_Shoutouts/
-├── Day28_Time_Module/
-├── Day29_Command_Line_Utility/
-├── Day30_Walrus_Operator/
-├── Day31_Shutil_Module/
-├── Day32_Exercise_9_Solution/
-├── Day33_Requests_Module/
-├── Day34_Exercise_10_News_App/
-├── Day35_Generators/
-├── Day36_Function_Caching/
-├── Day37_Exercise_10_Solution/
-├── Day38_Drink_Water_Reminder/
-├── Day39_Regular_Expressions/
-├── Day40_AsyncIO/
-├── Day41_Multithreading/
-├── Day42_Multiprocessing/
-├── Day43_Desktop_Notification_System/
-├── Day44_Complete_Python_Revision/
+├── Day27_Time_Module/
+├── Day28_Command_Line_Utility/
+├── Day29_Walrus_Operator/
+├── Day30_Shutil_Module/
+├── Day31_Exercise_9_Solution/
+├── Day32_Requests_Module/
+├── Day33_Exercise_10_News_App/
+├── Day34_Generators/
+├── Day35_Function_Caching/
+├── Day36_Exercise_10_Solution/
+├── Day37_Drink_Water_Reminder/
+├── Day38_Regular_Expressions/
+├── Day39_AsyncIO/
+├── Day40_Multithreading/
+├── Day41_Multiprocessing/
+├── Day42_Desktop_Notification_System/
+├── Day43_Complete_Python_Revision/
 │
-├── Day45_Banking_Management_System/
-├── Day46_Ecommerce_Management_System/
-├── Day47_Student_Management_System/
+├── Day44_Banking_Management_System/
+├── Day45_Ecommerce_Management_System/
+├── Day46_Student_Management_System/
 │
-└── Day48_OOP_Interview_Preparation/
+└── Day47_OOP_Interview_Preparation/
 ```
 
-> 📌 Folder names start with a **capital `Day`** and a **two-digit number** (`Day01`, `Day02` … `Day48`) so GitHub shows them in the correct order.
+> 📌 Folder names start with a **capital `Day`** and a **two-digit number** (`Day01`, `Day02` … `Day47`) so GitHub shows them in the correct order.
 
 ---
 
@@ -921,17 +875,17 @@ Day 13: File organizer using Python OOP
 Day 28: Time module practice
 Day 45: Banking management system
 ...
-Day 48: OOP interview preparation
+Day 47: OOP interview preparation
 ```
 
 ---
 
 ## 📈 Progress Tracker
 
-**Overall progress:** Day 24 of 48
+**Overall progress:** Day 24 of 47
 
 ```text
-██████████░░░░░░░░░░  48%   (23 of 48 days completed)
+██████████░░░░░░░░░░  48%   (23 of 47 days completed)
 ```
 
 | Day | Topic | Type | Status |
@@ -962,28 +916,27 @@ Day 48: OOP interview preparation
 | 24 | Multiple Inheritance | 📘 | 🟡 |
 | 25 | Multilevel Inheritance | 📘 | ⬜ |
 | 26 | Hierarchical & Hybrid Inheritance | 📘 | ⬜ |
-| 27 | Exercise 9 — Shoutouts | 🛠️ | ⬜ |
-| 28 | Time Module | 📘 | ⬜ |
-| 29 | Command Line Utility | 🛠️ | ⬜ |
-| 30 | Walrus Operator | 📘 | ⬜ |
-| 31 | Shutil Module | 📘 | ⬜ |
-| 32 | Exercise 9 Solution | 🔁 | ⬜ |
-| 33 | Requests Module | 📘 | ⬜ |
-| 34 | Exercise 10 — News App | 🛠️ | ⬜ |
-| 35 | Generators | 📘 | ⬜ |
-| 36 | Function Caching | 📘 | ⬜ |
-| 37 | News App Solution | 🔁 | ⬜ |
-| 38 | Drink Water Reminder | 🛠️ | ⬜ |
-| 39 | Regular Expressions | 📘 | ⬜ |
-| 40 | AsyncIO | 📘 | ⬜ |
-| 41 | Multithreading | 📘 | ⬜ |
-| 42 | Multiprocessing | 📘 | ⬜ |
-| 43 | Desktop Notification System | 🛠️ | ⬜ |
-| 44 | Complete Revision | 🔁 | ⬜ |
-| 45 | Banking Management System | 🛠️ | ⬜ |
-| 46 | E-Commerce Management System | 🛠️ | ⬜ |
-| 47 | Student Management System | 🛠️ | ⬜ |
-| 48 | OOP & Advanced Python Interview Preparation | 🎤 | ⬜ |
+| 27 | Time Module | 📘 | ⬜ |
+| 28 | Command Line Utility | 🛠️ | ⬜ |
+| 29 | Walrus Operator | 📘 | ⬜ |
+| 30 | Shutil Module | 📘 | ⬜ |
+| 31 | Exercise 9 Solution | 🔁 | ⬜ |
+| 32 | Requests Module | 📘 | ⬜ |
+| 33 | Exercise 10 — News App | 🛠️ | ⬜ |
+| 34 | Generators | 📘 | ⬜ |
+| 35 | Function Caching | 📘 | ⬜ |
+| 36 | News App Solution | 🔁 | ⬜ |
+| 37 | Drink Water Reminder | 🛠️ | ⬜ |
+| 38 | Regular Expressions | 📘 | ⬜ |
+| 39 | AsyncIO | 📘 | ⬜ |
+| 40 | Multithreading | 📘 | ⬜ |
+| 41 | Multiprocessing | 📘 | ⬜ |
+| 42 | Desktop Notification System | 🛠️ | ⬜ |
+| 43 | Complete Revision | 🔁 | ⬜ |
+| 44 | Banking Management System | 🛠️ | ⬜ |
+| 45 | E-Commerce Management System | 🛠️ | ⬜ |
+| 46 | Student Management System | 🛠️ | ⬜ |
+| 47 | OOP & Advanced Python Interview Preparation | 🎤 | ⬜ |
 
 > **Legend:** 📘 Learning · 🔁 Revision · 🛠️ Project · 🎤 Interview  |  ✅ Done · 🟡 In progress · ⬜ Pending
 
@@ -991,7 +944,7 @@ Day 48: OOP interview preparation
 
 ## 🎯 Final Goal
 
-After completing this 48-day roadmap, I aim to:
+After completing this 47-day roadmap, I aim to:
 
 - Understand Python OOP concepts deeply.
 - Work confidently with advanced Python modules.
@@ -1010,7 +963,7 @@ After completing this 48-day roadmap, I aim to:
 
 | | |
 | --- | --- |
-| **Duration** | 48 Days |
+| **Duration** | 47 Days |
 | **Learning Source** | CodeWithHarry Python Course |
 | **Main Focus** | Python OOP + Advanced Python |
 | **Projects** | 10 (7 mini projects + 3 major projects) |
