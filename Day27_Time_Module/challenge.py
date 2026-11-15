@@ -4,15 +4,17 @@ print("=" * 66)
 print("                    SMART TIME UTILITY")
 print("=" * 66)
 
+print()
+print("\n1. Current Date and Time")
+print("2. Digital Clock")
+print("3. Countdown Timer")
+print("4. Stopwatch")
+print("5. Current Timestamp")
+print("6. Execution Time Calculator")
+print("7. Exit")
+
 while True:
 
-    print("\n1. Current Date and Time")
-    print("2. Digital Clock")
-    print("3. Countdown Timer")
-    print("4. Stopwatch")
-    print("5. Current Timestamp")
-    print("6. Execution Time Calculator")
-    print("7. Exit")
 
     option = int(input("\nEnter Your Choice: "))
 
