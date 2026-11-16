@@ -669,7 +669,7 @@ After completing Day 27, I should be able to work with timestamps, create delays
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Day%2027-Ready%20to%20Code%20%F0%9F%9A%80-22c55e?style=for-the-badge" alt="Day 24"/>
+  <img src="https://img.shields.io/badge/Day%2027-Ready%20to%20Code%20%F0%9F%9A%80-22c55e?style=for-the-badge" alt="Day 27"/>
 </p>
 
 <h3 align="center"><b>Sudhanshu Dhande</b></h3>
