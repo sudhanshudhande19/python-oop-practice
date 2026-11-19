@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Day 29 — Walrus Operator in Python</title>
+  <desc id="desc">A dimensional neon Python learning banner featuring the Walrus Operator symbol and creator credit Sudhanshu Dhande.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07152e"/><stop offset=".52" stop-color="#142d58"/><stop offset="1" stop-color="#090d20"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9be7ff"/><stop offset=".45" stop-color="#36a8ff"/><stop offset="1" stop-color="#1550bb"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff2a6"/><stop offset=".48" stop-color="#ffbd45"/><stop offset="1" stop-color="#d66b12"/></linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e0b8ff"/><stop offset="1" stop-color="#8846dc"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur in="SourceAlpha" stdDeviation="9"/><feOffset dx="0" dy="12" result="off"/><feColorMatrix in="off" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .65 0"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#8acbff" stroke-opacity=".09" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
+  <circle cx="1030" cy="78" r="180" fill="#287bdb" opacity=".12"/>
+  <circle cx="130" cy="370" r="190" fill="#9a53e8" opacity=".10"/>
+  <path d="M40 58H1160M40 362H1160" stroke="#75caff" stroke-opacity=".25" stroke-width="2"/>
+  <g filter="url(#shadow)" transform="translate(82 100)">
+    <path d="M22 28 95 0l72 28-72 28z" fill="#d6f5ff" opacity=".95"/>
+    <path d="M22 28v90l73 36V56z" fill="url(#blue)"/>
+    <path d="M95 56v98l72-36V28z" fill="#1764c9"/>
+    <path d="M22 28 95 56l72-28" fill="none" stroke="#e4f8ff" stroke-width="3" opacity=".8"/>
+    <text x="95" y="111" font-family="Arial,sans-serif" font-size="44" font-weight="900" text-anchor="middle" fill="#fff">Py</text>
+  </g>
+  <g filter="url(#shadow)">
+    <text x="315" y="112" font-family="Arial,sans-serif" font-size="30" font-weight="800" letter-spacing="8" fill="#8edcff">PYTHON LEARNING JOURNEY</text>
+    <text x="310" y="218" font-family="Arial,sans-serif" font-size="104" font-weight="900" fill="url(#gold)" stroke="#9b4e12" stroke-width="2" paint-order="stroke">DAY 29</text>
+    <text x="316" y="276" font-family="Arial,sans-serif" font-size="42" font-weight="800" fill="#f4f8ff">WALRUS OPERATOR <tspan fill="#72d7ff">(:=)</tspan></text>
+    <text x="320" y="321" font-family="Arial,sans-serif" font-size="21" font-weight="600" letter-spacing="3" fill="#b9cce8">ASSIGNMENT EXPRESSIONS IN PYTHON</text>
+  </g>
+  <g filter="url(#shadow)" transform="translate(930 118)">
+    <path d="M0 0 116 0 148 28 32 28z" fill="#f9d889"/>
+    <path d="M0 0v112l32 29V28z" fill="url(#purple)"/>
+    <path d="M32 28h116v112H32z" fill="#6132a8"/>
+    <path d="M0 112 32 140h116l-32-28z" fill="#3b216e"/>
+    <text x="90" y="91" font-family="monospace" font-size="54" font-weight="900" text-anchor="middle" fill="#fff">:=</text>
+  </g>
+  <g transform="translate(316 382)"><circle cx="0" cy="0" r="5" fill="#ffbf55"/><text x="18" y="7" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="2" fill="#d8e9ff">CREATED BY SUDHANSHU DHANDE</text></g>
+  <g fill="#9bdfff" opacity=".8"><path d="m1110 70 7 15 15 7-15 7-7 15-7-15-15-7 15-7z"/><path d="m245 285 5 11 11 5-11 5-5 11-5-11-11-5 11-5z"/><circle cx="1080" cy="310" r="4"/><circle cx="270" cy="78" r="3"/></g>
+</svg>
