@@ -1,0 +1,1 @@
+shutil.move('text.txt','info_copy/text.txt')
