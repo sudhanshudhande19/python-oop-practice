@@ -653,6 +653,9 @@ After completing Day 29, I should be able to understand and use assignment expre
 
 ---
 
-<div align="center">
-  <b>✨ Created with dedication by Sudhanshu Dhande ✨</b>
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Day%2029-Ready%20to%20Code%20%F0%9F%9A%80-22c55e?style=for-the-badge" alt="Day 28"/>
+</p>
+
+<h3 align="center"><b>Sudhanshu Dhande</b></h3>
+<p align="center"><i>B.Tech (AI &amp; ML) · BATU, Lonere · Python OOP Journey</i></p>
