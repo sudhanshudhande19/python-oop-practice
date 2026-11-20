@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07152f"/><stop offset=".55" stop-color="#102c55"/><stop offset="1" stop-color="#080d20"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff2a6"/><stop offset=".45" stop-color="#ffbd45"/><stop offset="1" stop-color="#d66b13"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a8f7ff"/><stop offset=".5" stop-color="#25c7e8"/><stop offset="1" stop-color="#1464bd"/></linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur in="SourceAlpha" stdDeviation="12"/><feOffset dx="0" dy="16"/><feComponentTransfer><feFuncA type="linear" slope=".65"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#7acfff" stroke-opacity=".10" stroke-width="1"/></pattern>
+</defs>
+<rect width="1600" height="520" rx="34" fill="url(#bg)"/>
+<rect width="1600" height="520" rx="34" fill="url(#grid)"/>
+<circle cx="1320" cy="110" r="210" fill="#16bce5" opacity=".08"/>
+<circle cx="250" cy="440" r="250" fill="#ffb53d" opacity=".07"/>
+<!-- floating 3D file tiles -->
+<g filter="url(#shadow)" transform="translate(1120 105) rotate(-9)">
+ <path d="M0 40 180 0 270 55 90 98Z" fill="#2b9bc7"/>
+ <path d="M90 98 270 55 270 245 90 290Z" fill="#0c5d9a"/>
+ <path d="M0 40 90 98 90 290 0 230Z" fill="#1676ad"/>
+ <path d="M48 87 146 119 146 220 48 188Z" fill="url(#cyan)" opacity=".95"/>
+ <path d="M163 123 238 102 238 127 163 148Z" fill="#d7faff"/>
+ <path d="M163 165 238 144 238 169 163 190Z" fill="#7be7ff"/>
+</g>
+<g filter="url(#shadow)" transform="translate(1370 275) rotate(10)">
+ <path d="M0 25 100 0 160 36 60 62Z" fill="#ffcf66"/>
+ <path d="M60 62 160 36 160 145 60 172Z" fill="#a65313"/>
+ <path d="M0 25 60 62 60 172 0 135Z" fill="#d77b1b"/>
+ <path d="M27 66 48 79 48 124 27 111Z" fill="#fff0b0"/>
+</g>
+<!-- central title plate -->
+<g filter="url(#shadow)">
+ <path d="M115 105 965 105 1020 145 1020 365 965 405 115 405 65 365 65 145Z" fill="#061126" stroke="#43d8f5" stroke-width="3"/>
+ <path d="M115 105 965 105 1020 145 170 145Z" fill="#174a70" opacity=".8"/>
+ <path d="M65 145 115 105 115 325 65 365Z" fill="#0b3558"/>
+ <path d="M170 145 1020 145 1020 365 170 365Z" fill="#0b1c37"/>
+ <path d="M170 365 1020 365 965 405 115 405Z" fill="#071126"/>
+</g>
+<text x="140" y="205" fill="#9eeeff" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="9">PYTHON LEARNING JOURNEY</text>
+<text x="140" y="300" fill="url(#gold)" font-family="Arial, sans-serif" font-size="92" font-weight="900" letter-spacing="2">DAY 30</text>
+<text x="145" y="350" fill="#e8f7ff" font-family="Arial, sans-serif" font-size="34" font-weight="700">SHUTIL MODULE</text>
+<text x="145" y="390" fill="#75dff5" font-family="Arial, sans-serif" font-size="20" letter-spacing="3">COPY • MOVE • BACKUP • ARCHIVE</text>
+<g transform="translate(1090 70)">
+ <rect x="0" y="0" width="250" height="62" rx="18" fill="#07152f" stroke="#f6bd54" stroke-width="2"/>
+ <text x="125" y="40" text-anchor="middle" fill="#ffe3a0" font-family="Arial, sans-serif" font-size="21" font-weight="700">3D PYTHON LAB</text>
+</g>
+<text x="1100" y="480" fill="#d5eaff" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2">CREATED BY SUDHANSHU DHANDE</text>
+<path d="M1075 454H1510" stroke="#f4b84d" stroke-width="3" stroke-linecap="round"/>
+</svg>
