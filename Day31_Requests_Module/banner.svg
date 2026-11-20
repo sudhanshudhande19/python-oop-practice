@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07142d"/><stop offset=".55" stop-color="#142b58"/><stop offset="1" stop-color="#080d20"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff3ad"/><stop offset=".48" stop-color="#ffc04e"/><stop offset="1" stop-color="#d86a19"/></linearGradient>
+ <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b8fbff"/><stop offset=".5" stop-color="#32d5ef"/><stop offset="1" stop-color="#1767c5"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="170%" height="190%"><feGaussianBlur in="SourceAlpha" stdDeviation="12"/><feOffset dx="0" dy="15"/><feComponentTransfer><feFuncA type="linear" slope=".65"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#80dfff" stroke-opacity=".10"/></pattern>
+</defs>
+<rect width="1600" height="520" rx="34" fill="url(#bg)"/><rect width="1600" height="520" rx="34" fill="url(#grid)"/>
+<circle cx="1330" cy="130" r="230" fill="#27c9ec" opacity=".08"/><circle cx="240" cy="440" r="250" fill="#ffbd4d" opacity=".07"/>
+<g filter="url(#shadow)" transform="translate(1115 115) rotate(-8)">
+ <path d="M0 45 175 0 285 54 110 101Z" fill="#53dff1"/><path d="M110 101 285 54 285 140 110 188Z" fill="#0c609d"/><path d="M0 45 110 101 110 188 0 132Z" fill="#1689b6"/>
+ <circle cx="42" cy="87" r="9" fill="#fff4b0"/><circle cx="70" cy="101" r="9" fill="#fff4b0"/><path d="M138 111 250 81M138 137 250 107" stroke="#b7f8ff" stroke-width="9" stroke-linecap="round"/>
+ <path d="M0 170 175 125 285 179 110 226Z" fill="#ffc75e"/><path d="M110 226 285 179 285 263 110 311Z" fill="#a95119"/><path d="M0 170 110 226 110 311 0 255Z" fill="#d87a20"/>
+ <circle cx="43" cy="210" r="9" fill="#fff2b4"/><circle cx="70" cy="224" r="9" fill="#fff2b4"/>
+</g>
+<g filter="url(#shadow)" transform="translate(1390 285) rotate(10)">
+ <path d="M0 25 75 0 145 35 70 61Z" fill="#a7f5ff"/><path d="M70 61 145 35 145 125 70 152Z" fill="#1766a9"/><path d="M0 25 70 61 70 152 0 116Z" fill="#1b91bb"/>
+ <path d="M25 65 48 77 48 110 25 98Z" fill="#fff"/><path d="M84 78 125 64" stroke="#c5faff" stroke-width="7" stroke-linecap="round"/>
+</g>
+<g filter="url(#shadow)">
+ <path d="M115 100 960 100 1020 145 1020 365 960 410 115 410 60 365 60 145Z" fill="#061126" stroke="#4bdcf2" stroke-width="3"/>
+ <path d="M115 100 960 100 1020 145 175 145Z" fill="#1a4c72"/><path d="M60 145 115 100 115 325 60 365Z" fill="#0c385a"/><path d="M175 145 1020 145 1020 365 175 365Z" fill="#0a1b36"/><path d="M175 365 1020 365 960 410 115 410Z" fill="#071126"/>
+</g>
+<text x="140" y="205" fill="#9ceeff" font-family="Arial,sans-serif" font-size="32" font-weight="700" letter-spacing="8">PYTHON LEARNING JOURNEY</text>
+<text x="140" y="300" fill="url(#gold)" font-family="Arial,sans-serif" font-size="94" font-weight="900" letter-spacing="2">DAY 31</text>
+<text x="145" y="350" fill="#e8f7ff" font-family="Arial,sans-serif" font-size="34" font-weight="700">REQUESTS MODULE</text>
+<text x="145" y="390" fill="#75e1f5" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">API • HTTP • GET • POST • JSON</text>
+<g transform="translate(1090 65)"><rect width="260" height="62" rx="18" fill="#07152f" stroke="#f6bd54" stroke-width="2"/><text x="130" y="40" text-anchor="middle" fill="#ffe3a0" font-family="Arial,sans-serif" font-size="21" font-weight="700">3D API LAB</text></g>
+<path d="M1075 454H1510" stroke="#f4b84d" stroke-width="3" stroke-linecap="round"/>
+<text x="1100" y="480" fill="#d5eaff" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="2">CREATED BY SUDHANSHU DHANDE</text>
+</svg>
