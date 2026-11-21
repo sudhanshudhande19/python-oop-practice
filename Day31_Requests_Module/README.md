@@ -902,37 +902,36 @@ print(response.json())
 # 14. Interview Questions
 
 1. What is the Requests module in Python?
-   **Answer:** It is a Python library used to send HTTP requests and communicate with websites and APIs.
+  
 2. How do you install Requests?
-   **Answer:** Run `pip install requests` in the terminal.
+  
 3. What is an API?
-   **Answer:** An API is an interface that lets two software applications communicate.
+
 4. What is HTTP?
-   **Answer:** HTTP is the protocol used for communication between web clients and servers.
+
 5. What is the difference between GET and POST?
-   **Answer:** `GET` retrieves data; `POST` sends data to a server.
+
 6. What does `requests.get()` do?
-   **Answer:** It sends an HTTP GET request to retrieve data from a URL.
+  
 7. What is a response object?
-   **Answer:** It stores the server's reply, including status, headers, and response data.
+  
 8. What is the use of `response.status_code`?
-   **Answer:** It gives the HTTP status number, such as `200` or `404`.
+  
 9. What is the difference between `response.text` and `response.json()`?
-   **Answer:** `text` gives the response as text; `json()` parses JSON into Python data.
+  
 10. What is JSON?
-   **Answer:** JSON is a text format used to exchange data between applications.
+
 11. What are HTTP status codes?
-   **Answer:** They are numbers that describe the result of an HTTP request.
+.
 12. What is the purpose of query parameters?
-   **Answer:** They send extra filtering or search information with a request URL.
+
 13. What is the use of `timeout`?
-   **Answer:** It stops a request from waiting indefinitely.
+
 14. What does `raise_for_status()` do?
-   **Answer:** It raises an HTTP error when the response status indicates failure (4xx or 5xx).
+
 15. How do you handle Requests exceptions?
-   **Answer:** Use `try-except`, commonly catching `requests.exceptions.RequestException`.
+
 16. What is the difference between `data` and `json` in a POST request?
-   **Answer:** `data` sends form/body data; `json` sends JSON-encoded data.
 
 
 ---
@@ -978,6 +977,8 @@ After completing Day 31, I should be able to connect Python programs with APIs, 
 ---
 
 <p align="center">
-  **Created by Sudhanshu Dhande**  
-  🐍 Keep Learning • Keep Practicing • Keep Building
+  <img src="https://img.shields.io/badge/Day%2031-Ready%20to%20Code%20%F0%9F%9A%80-22c55e?style=for-the-badge" alt="Day 31"/>
 </p>
+
+<h3 align="center"><b>Sudhanshu Dhande</b></h3>
+<p align="center"><i>B.Tech (AI &amp; ML) · BATU, Lonere · Python OOP Journey</i></p>
