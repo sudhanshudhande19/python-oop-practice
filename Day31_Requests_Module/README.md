@@ -783,7 +783,7 @@ Day31_Requests_Module/
 │
 ├── README.md
 ├── requirements.txt
-├── theory.py
+├── interview.md
 ├── practice/
 │   ├── Q01.py
 │   ├── Q02.py
@@ -791,7 +791,7 @@ Day31_Requests_Module/
 │   └── Q12.py
 │
 └── project/
-    └── api_data_explorer.py
+    └── main.py
 ```
 
 ### requirements.txt
