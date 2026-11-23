@@ -731,6 +731,10 @@ After completing Day 32, I should be able to build a Python application that con
 
 ---
 
+
 <p align="center">
-  **Created with dedication by Sudhanshu Dhande**
+  <img src="https://img.shields.io/badge/Day%2032-Ready%20to%20Code%20%F0%9F%9A%80-22c55e?style=for-the-badge" alt="Day 32"/>
 </p>
+
+<h3 align="center"><b>Sudhanshu Dhande</b></h3>
+<p align="center"><i>B.Tech (AI &amp; ML) · BATU, Lonere · Python OOP Journey</i></p>
