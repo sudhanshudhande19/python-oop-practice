@@ -1,0 +1,13 @@
+Generator Model in Python
+
+A Generator is a special type of function that produces values one at a time instead of returning all values at once.
+
+It uses the yield keyword instead of return.
+
+How Generator Works
+Generator function is called.
+It returns a generator object.
+Execution starts when next() or a loop requests a value.
+yield returns a value and pauses the function.
+The next call resumes execution from the same point.
+When all values are generated, StopIteration is raised.
