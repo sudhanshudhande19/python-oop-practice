@@ -710,14 +710,14 @@ Day33_Generators/
 │
 ├── README.md
 ├── interview.md
-├── practice/
+├── practice.py
 │   ├── Q01.py
 │   ├── Q02.py
 │   ├── ...
 │   └── Q12.py
 │
 └── project/
-    └── smart_data_generator.py
+    └── main.py
 ```
 
 ---
