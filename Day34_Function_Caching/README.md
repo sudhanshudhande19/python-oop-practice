@@ -738,97 +738,12 @@ Day34_Function_Caching/
 │   └── Q12.py
 │
 └── project/
-    └── smart_calculation_cache.py
+    └── main.py
 ```
 
 ---
 
-# 13. Debugging Practice
-
-Find and fix the errors in these examples.
-
-### Debugging Q1
-
-```python
-from functools import cache
-
-@cache
-def square(n):
-    return n * n
-
-print(square([5]))
-```
-
-**Task:** Identify why this function call fails and understand the hashability requirement.
-
-### Debugging Q2
-
-```python
-from functools import lru_cache
-
-@lru_cache(maxsize=3)
-def add(a, b):
-    return a + b
-
-print(add(5))
-```
-
-**Task:** Identify why the function call raises an argument error and provide all required arguments.
-
-### Debugging Q3
-
-```python
-from functools import lru_cache
-
-@lru_cache(maxsize=10)
-def square(n):
-    return n * n
-
-square(5)
-
-print(square.cache_info)
-```
-
-**Task:** Identify why the cache information is not being called correctly.
-
-### Debugging Q4
-
-```python
-from functools import lru_cache
-
-@lru_cache(maxsize=10)
-def fibonacci(n):
-    if n <= 1:
-        return n
-
-    return fibonacci(n - 1) + fibonacci(n - 2)
-
-print(fibonacci(10))
-
-fibonacci.cache_clear
-
-print(fibonacci.cache_info())
-```
-
-**Task:** Correct the cache-clearing statement and verify that the cache is empty afterward.
-
-### Debugging Q5
-
-```python
-from functools import cache
-
-@cache
-def total(numbers):
-    return sum(numbers)
-
-print(total([1, 2, 3]))
-```
-
-**Task:** Understand why the list cannot be used directly as a cache key. Find an immutable way to pass the values.
-
----
-
-# 14. Interview Questions
+# 13. Interview Questions
 
 1. What is function caching in Python?
 2. What is memoization?
@@ -851,7 +766,7 @@ print(total([1, 2, 3]))
 
 ---
 
-# 15. Day 34 Completion Checklist
+# 14. Day 34 Completion Checklist
 
 - [ ] Understand function caching.
 - [ ] Understand memoization.
@@ -871,7 +786,7 @@ print(total([1, 2, 3]))
 
 ---
 
-# 16. GitHub Commit
+# 15. GitHub Commit
 
 ```bash
 git add .
