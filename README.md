@@ -962,7 +962,7 @@ Day 47: OOP interview preparation
 **Overall progress:** Day 24 of 47
 
 ```text
-██████████░░░░░░░░░░  48%   (23 of 47 days completed)
+██████████████████░░░░░  75%   (23 of 47 days completed)
 ```
 
 | Day | Topic | Type | Status |
