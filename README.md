@@ -42,9 +42,9 @@ My goal is not just to watch tutorials. I will write code myself, solve problems
 | --- | --- |
 | **Course** | CodeWithHarry — Python for Beginners (Full Course) |
 | **Playlist** | [Watch on YouTube](https://youtube.com/playlist?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg) |
-| **OOP part** | Roadmap Day 01 – Day 48 |
-| **Advanced Python part** | Roadmap Day 27 – Day 44 |
-| **Projects + Interview** | Roadmap Day 45 – Day 48 |
+| **OOP part** | Roadmap Day 01 – Day 47 |
+| **Advanced Python part** | Roadmap Day 27 – Day 41 |
+| **Projects + Interview** | Roadmap Day 42 – Day 47 |
 
 ---
 
@@ -56,9 +56,9 @@ flowchart LR
     B --> C["🔵 Phase 3<br/>Practical OOP<br/>Day 9-13"]
     C --> D["🟠 Phase 4<br/>Advanced OOP<br/>Day 14-20"]
     D --> E["🔴 Phase 5<br/>Operators &<br/>Inheritance Types<br/>Day 21-26"]
-    E --> F["🟣 Phase 6<br/>Advanced Python<br/>Day 27-44"]
-    F --> G["🚀 Phase 7<br/>Major Projects<br/>Day 45-47"]
-    G --> H["🏆 Phase 8<br/>Interview Prep<br/>Day 48"]
+    E --> F["🟣 Phase 6<br/>Advanced Python<br/>Day 27-41"]
+    F --> G["🚀 Phase 7<br/>Major Projects<br/>Day 42-46"]
+    G --> H["🏆 Phase 8<br/>Interview Prep<br/>Day 47"]
 ```
 
 | Phase | Days | Focus | Outcome |
@@ -68,8 +68,8 @@ flowchart LR
 | 🔵 Practical OOP | 09–13 | Static methods, variables, mini projects | First real projects |
 | 🟠 Advanced OOP | 14–20 | Class methods, `super()`, magic methods, overriding | Writes Pythonic classes |
 | 🔴 Operators & Inheritance Types | 21–26 | PDF project, operator overloading, all inheritance types | Understands class hierarchies |
-| 🟣 Advanced Python | 27–43 | Time, `shutil`, `requests`, generators, caching, regex, async, threads, processes | Works with Python's powerful modules |
-| 🚀 Major Projects | 44–46 | Banking, E-Commerce, Student Management | Portfolio projects |
+| 🟣 Advanced Python | 27–41 | Time, `shutil`, `requests`, generators, caching, regex, async, threads, processes | Works with Python's powerful modules |
+| 🚀 Major Projects | 42–46 | Banking, E-Commerce, Student Management | Portfolio projects |
 | 🏆 Interview Prep | 47 | OOP + advanced Python questions, project explanation | Interview ready |
 
 ---
@@ -394,17 +394,7 @@ This phase covers the advanced Python topics from the second half of the course.
 - Remove folders
 - File and directory operations
 
-### Day 31 — Exercise 9 Solution
-
-- Review the Exercise 9 solution.
-- Compare the solution with your own logic.
-- Understand mistakes.
-- Improve the code.
-- Rewrite the complete solution without copying.
-
-**Challenge:** Make your Exercise 9 code cleaner and reusable.
-
-### Day 32 — Requests Module
+### Day 31 — Requests Module
 
 - `requests` library (install with `pip install requests`)
 - HTTP requests
@@ -414,7 +404,7 @@ This phase covers the advanced Python topics from the second half of the course.
 - JSON response
 - Working with APIs
 
-### Day 33 — Exercise 10: News App
+### Day 32 — Exercise 10: News App
 
 - Understand the News App problem.
 - Work with the Requests module.
@@ -423,19 +413,20 @@ This phase covers the advanced Python topics from the second half of the course.
 - Display news information.
 - Handle possible request errors.
 
-**Challenge:** Build your own News App.
+Challenge: Build your own News App.
 
-### Day 34 — Generators in Python
+### Day 33 — Generators in Python
 
-- Generators
-- `yield`
-- `next()`
+Generators
+
+- yield
+- next()
 - Generator functions
 - Generator expressions
 - Iterator vs generator
 - Memory-efficient iteration
 
-### Day 35 — Function Caching
+### Day 34 — Function Caching
 
 - Function caching
 - `functools`
@@ -444,21 +435,8 @@ This phase covers the advanced Python topics from the second half of the course.
 - Understanding repeated function calls
 - Performance improvement
 
-**Practice:** 10–12 problems
 
-### Day 36 — Exercise 10 Solution & Shoutout
-
-
-- Review the News App solution.
-- Understand API integration.
-- Compare your implementation.
-- Improve error handling.
-- Refactor repeated code.
-- Rewrite the project independently.
-
-**Challenge:** Complete and document your News App.
-
-### Day 37 — Drink Water Reminder
+### Day 35 — Drink Water Reminder
 
 
 - Understand reminder logic.
@@ -466,22 +444,25 @@ This phase covers the advanced Python topics from the second half of the course.
 - Display reminder messages.
 - Repeat reminders.
 - Use appropriate Python modules.
+- Work with desktop notifications.
 
-**Challenge:** Build a Drink Water Reminder application.
+**Challenge:**Build a Drink Water Reminder application..
 
-### Day 38 — Regular Expressions
+### Day 36 — Regular Expressions
 
+Regular expressions
 
-- Regular expressions
-- `re` module
-- `re.search()`
-- `re.findall()`
-- `re.match()`
-- `re.sub()`
+- re module
+- re.search()
+- re.findall()
+- re.match()
+- re.sub()
 - Pattern matching
 - Basic email and phone validation
 
-### Day 39 — AsyncIO in Python
+### Day 37 — AsyncIO in Python
+
+Asynchronous programming
 
 - Asynchronous programming
 - `async`
@@ -491,7 +472,7 @@ This phase covers the advanced Python topics from the second half of the course.
 - Event loop
 - Concurrent asynchronous tasks
 
-### Day 40 — Multithreading in Python
+### Day 38 — Multithreading in Python
 
 - Threading
 - `threading` module
@@ -501,7 +482,7 @@ This phase covers the advanced Python topics from the second half of the course.
 - Concurrent execution
 - Basic thread synchronization
 
-### Day 41 — Multiprocessing in Python
+### Day 39 — Multiprocessing in Python
 
 - Multiprocessing
 - `multiprocessing` module
@@ -511,7 +492,7 @@ This phase covers the advanced Python topics from the second half of the course.
 - Parallel execution
 - Threading vs multiprocessing
 
-### Day 42 — Exercise 11 Solution: Desktop Notification System
+### Day 40 — Desktop Notification System
 
 - Understand the Exercise 11 solution.
 - Learn desktop notification logic.
@@ -520,13 +501,12 @@ This phase covers the advanced Python topics from the second half of the course.
 - Configure notification title and message.
 - Handle notification timing.
 
-**Challenge:** Build your own Desktop Notification System.
 
-### Day 43 — Course Conclusion & Complete Revision
+### Day 41 — Course Conclusion & Complete Revision
 
 - Revise the complete Python course journey.
 - Review OOP concepts.
-- Review advanced Python modules.
+- Riew advanced Python modules.
 - Review generators and caching.
 - Review regular expressions.
 - Review AsyncIO, multithreading, and multiprocessing.
@@ -541,7 +521,7 @@ This phase covers the advanced Python topics from the second half of the course.
 
 These projects come after all the learning and practice topics.
 
-### Day 44 — Banking Management System
+### Day 42 — Banking Management System
 
 **Classes**
 - `Bank`
@@ -567,7 +547,7 @@ These projects come after all the learning and practice topics.
 - Class methods
 - Exception handling
 
-### Day 45 — E-Commerce Management System
+### Day 43 — E-Commerce Management System
 
 **Classes**
 - `Product`
@@ -594,7 +574,7 @@ These projects come after all the learning and practice topics.
 - Operator overloading
 - File handling
 
-### Day 46 — Student Management System
+### Day 44 — Student Management System
 
 **Classes**
 - `Person`
@@ -621,6 +601,103 @@ These projects come after all the learning and practice topics.
 - Encapsulation
 - Class methods
 - File handling
+
+### Day 45 —  Employee Payroll Management System
+Build a complete Employee Payroll Management System using Python OOP.
+
+**Classes:**
+- Employee
+- FullTimeEmployee
+- PartTimeEmployee
+- Manager
+- Payroll
+- Department
+
+**Features:**
+- Add new employees.
+- Store employee details.
+- Assign employees to departments.
+- Support full-time and part-time employees.
+- Calculate employee salaries.
+- Calculate bonuses and deductions.
+- Generate monthly salary slips.
+- Search employees by ID.
+- Update employee information.
+- Display payroll reports.
+- Save and load employee records.
+
+**Concepts:**
+- Classes and objects
+- Constructors
+- Encapsulation
+- Inheritance
+- Method overriding
+- Polymorphism
+- Class methods
+- Static methods
+- Composition
+- Exception handling
+- File handling
+
+**Project Requirements:**
+- Use separate classes for employee types.
+- Keep salary calculation logic organized.
+- Validate employee IDs and salary values.
+- Handle invalid input and missing records.
+- Store records using CSV or JSON.
+- Separate business logic from the main program.
+- Write clean, reusable, and maintainable code.
+
+**Day 46 — Inventory Management System**
+
+Build a complete Inventory Management System using Python OOP.
+
+**Classes:**
+- Product
+- Inventory
+- Category
+- Supplier
+- Purchase
+- StockManager
+
+**Features:**
+- Add new products.
+- Update product details.
+- Delete products.
+- Search products by ID or name.
+- Organize products by category.
+- Add stock.
+- Remove stock.
+- Track available quantities.
+- Identify low-stock products.
+- Record supplier details.
+- Generate inventory report
+- Save and load inventory data.
+
+**Concepts:**
+- Classes and objects
+- Constructors
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Composition
+- Class methods
+- Static methods
+- Exception handling
+- File handling
+- Data validation
+
+**Project Requirements:**
+- Use separate classes for products, inventory, and suppliers.
+- Validate product IDs and quantities.
+- Prevent negative stock values.
+- Handle missing products.
+- Track stock updates correctly.
+- Store records using CSV or JSON.
+- Generate low-stock reports.
+- Separate business logic from the main program.
+- Write clean, reusable, and maintainable code.
+
 
 ---
 
@@ -705,10 +782,11 @@ Prepare for technical interviews covering:
 | 5 | News App | 34 / 37 | Mini project |
 | 6 | Drink Water Reminder | 38 | Mini project |
 | 7 | Desktop Notification System | 43 | Mini project |
-| 8 | Banking Management System | 44 | Major project |
-| 9 | E-Commerce Management System | 45 | Major project |
-| 10 | Student Management System | 46 | Major project |
-
+| 8 | Banking Management System | 42 | Major project |
+| 9 | E-Commerce Management System | 43 | Major project |
+| 10 | Student Management System | 44 | Major project |
+| 11 | Employee Payroll Management | 45 | Major project |
+| 12 | Inventory Management System | 46 | Major project |
 ---
 
 ## 🧠 Problem-Solving Rules
@@ -747,29 +825,28 @@ Improve the code
 ## 📁 GitHub Repository Structure
 
 ```text
-python-oop-practice/
+Python-OOP-Mastery-47-Days/
 │
 ├── README.md
-├── banner.svg
 │
 ├── Day01_Classes_Objects/
 ├── Day02_Constructors/
-├── Day03_Constructor_Object_Practice/
+├── Day03_Constructors_Self_Practice/
 ├── Day04_Decorators/
 ├── Day05_Getters_Setters/
 ├── Day06_Inheritance/
 ├── Day07_Access_Specifiers/
 ├── Day08_OOP_Revision/
-├── Day09_Library_Management_System/
+├── Day09_Library_Management/
 ├── Day10_Static_Methods/
-├── Day11_Class_and_Instance_Variables/
+├── Day11_Class_Instance_Variables/
 ├── Day12_OOP_Revision/
 ├── Day13_File_Organizer/
 ├── Day14_Class_Methods/
 ├── Day15_Alternative_Constructors/
 ├── Day16_Object_Inspection/
 ├── Day17_Super/
-├── Day18_Magic_Methods/
+├── Day18_Dunder_Methods/
 ├── Day19_Method_Overriding/
 ├── Day20_OOP_Revision/
 ├── Day21_PDF_Management/
@@ -783,23 +860,23 @@ python-oop-practice/
 ├── Day28_Command_Line_Utility/
 ├── Day29_Walrus_Operator/
 ├── Day30_Shutil_Module/
-├── Day31_Exercise_9_Solution/
-├── Day32_Requests_Module/
-├── Day33_Exercise_10_News_App/
-├── Day34_Generators/
-├── Day35_Function_Caching/
-├── Day36_Exercise_10_Solution/
-├── Day37_Drink_Water_Reminder/
-├── Day38_Regular_Expressions/
-├── Day39_AsyncIO/
-├── Day40_Multithreading/
-├── Day41_Multiprocessing/
-├── Day42_Desktop_Notification_System/
-├── Day43_Complete_Python_Revision/
+├── Day31_Requests_Module/
+├── Day32_Exercise_10_News_App/
+├── Day33_Generators/
+├── Day34_Function_Caching/
+├── Day35_Drink_Water_Reminder/
+├── Day36_Regular_Expressions/
+├── Day37_AsyncIO/
+├── Day38_Multithreading/
+├── Day39_Multiprocessing/
+├── Day40_Desktop_Notification_System/
+├── Day41_Complete_Python_Revision/
 │
-├── Day44_Banking_Management_System/
-├── Day45_Ecommerce_Management_System/
-├── Day46_Student_Management_System/
+├── Day42_Banking_Management_System/
+├── Day43_Ecommerce_Management_System/
+├── Day44_Student_Management_System/
+├── Day45_Employee_Payroll_Management/
+├── Day46_Inventory_Management_System/
 │
 └── Day47_OOP_Interview_Preparation/
 ```
@@ -913,23 +990,23 @@ Day 47: OOP interview preparation
 | 21 | PDF Management Project | 🛠️ | ✅ |
 | 22 | Operator Overloading | 📘 | ✅ |
 | 23 | Single Inheritance | 📘 | ✅ |
-| 24 | Multiple Inheritance | 📘 | 🟡 |
-| 25 | Multilevel Inheritance | 📘 | ⬜ |
-| 26 | Hierarchical & Hybrid Inheritance | 📘 | ⬜ |
-| 27 | Time Module | 📘 | ⬜ |
-| 28 | Command Line Utility | 🛠️ | ⬜ |
-| 29 | Walrus Operator | 📘 | ⬜ |
-| 30 | Shutil Module | 📘 | ⬜ |
-| 31 | Exercise 9 Solution | 🔁 | ⬜ |
-| 32 | Requests Module | 📘 | ⬜ |
-| 33 | Exercise 10 — News App | 🛠️ | ⬜ |
-| 34 | Generators | 📘 | ⬜ |
-| 35 | Function Caching | 📘 | ⬜ |
-| 36 | News App Solution | 🔁 | ⬜ |
-| 37 | Drink Water Reminder | 🛠️ | ⬜ |
-| 38 | Regular Expressions | 📘 | ⬜ |
-| 39 | AsyncIO | 📘 | ⬜ |
-| 40 | Multithreading | 📘 | ⬜ |
+| 24 | Multiple Inheritance | 📘 | ✅ |
+| 25 | Multilevel Inheritance | 📘 | ✅ |
+| 26 | Hierarchical & Hybrid Inheritance | 📘 | ✅ |
+| 27 | Time Module | 📘 | ✅ |
+| 28 | Command Line Utility | 🛠️ | ✅ |
+| 29 | Walrus Operator | 📘 | ✅ |
+| 30 | Shutil Module | 📘 | ✅ |
+| 31 | Exercise 9 Solution | 🔁 | ✅ |
+| 32 | Requests Module | 📘 | ✅ |
+| 33 | Exercise 10 — News App | 🛠️ | ✅ |
+| 34 | Generators | 📘 | ✅ |
+| 35 | Function Caching | 📘 | ✅ |
+| 36 | News App Solution | 🔁 | ✅ |
+| 37 | Drink Water Reminder | 🛠️ | ✅ |
+| 38 | Regular Expressions | 📘 | ✅ |
+| 39 | AsyncIO | 📘 | ✅ |
+| 40 | Multithreading | 📘 | ✅ |
 | 41 | Multiprocessing | 📘 | ⬜ |
 | 42 | Desktop Notification System | 🛠️ | ⬜ |
 | 43 | Complete Revision | 🔁 | ⬜ |
