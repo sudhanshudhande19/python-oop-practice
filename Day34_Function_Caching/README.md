@@ -317,25 +317,23 @@ print(square.cache_info())
 
 ---
 
----
-
 # 📘 Day 34 — Function Caching in Python: Beginner-Friendly Theory
 
-## 1. Function Caching kya hota hai?
-Function caching ek technique hai jisme function ka result save kiya jata hai. Same arguments ke saath dobara call karne par Python calculation repeat karne ke bajay saved result de sakta hai.
+## 1. What is function caching?
+Function caching is a technique in which a function's result is saved. When the function is called again with the same arguments, Python can return the saved result instead of repeating the calculation.
 
-**Yaad rakho:** Pehli baar `square(5)` calculate hoga aur `25` save hoga. Dobara same input dene par saved `25` reuse ho sakta hai.
+**Remember:** The first time, `square(5)` is calculated and `25` is saved. If you give the same input again, the saved `25` can be reused.
 
-## 2. Caching kyun useful hai?
-- Repeated calculations avoid kar sakti hai.
-- Expensive function calls ka time bacha sakti hai.
-- Recursive calculations ko efficient bana sakti hai.
+## 2. Why is caching useful?
+- It can avoid repeated calculations.
+- It can save time on expensive function calls.
+- It can make recursive calculations more efficient.
 
-## 3. Memoization kya hai?
-Memoization caching ka ek type hai. Isme function ke arguments ke basis par result store hota hai aur same input par reuse hota hai.
+## 3. What is memoization?
+Memoization is a type of caching. The result is stored based on the function's arguments and is reused when the same input appears again.
 
 ## 4. `functools.cache`
-Python ke `functools` module ka `@cache` decorator function results ko unlimited cache mein store karta hai. Ye Python 3.9+ mein available hai.
+The `@cache` decorator from Python's `functools` module stores function results in an unlimited cache. It is available in Python 3.9+.
 
 ```python
 from functools import cache
@@ -349,10 +347,10 @@ print(square(5))
 print(square(5))
 ```
 
-Pehli call calculate karti hai; same input ki next call saved result use kar sakti hai.
+The first call performs the calculation; the next call with the same input can use the saved result.
 
 ## 5. `functools.lru_cache`
-`lru_cache` results store karta hai aur cache size limit kar sakta hai. LRU ka full form **Least Recently Used** hai.
+`lru_cache` stores results and can limit the cache size. LRU stands for **Least Recently Used**.
 
 ```python
 from functools import lru_cache
@@ -362,51 +360,51 @@ def square(n):
     return n * n
 ```
 
-Cache full hone par least recently used entry remove ho sakti hai.
+When the cache is full, the least recently used entry can be removed.
 
-## 6. `cache` aur `lru_cache` ka difference
+## 6. Difference between `cache` and `lru_cache`
 | `cache` | `lru_cache` |
 |---|---|
-| Unlimited cache | Cache size limit kar sakte hain |
-| Simple decorator | `maxsize` configure kar sakte hain |
-| LRU eviction nahi | LRU eviction support karta hai |
+| Unlimited cache | The cache size can be limited |
+| Simple decorator | `maxsize` can be configured |
+| No LRU eviction | Supports LRU eviction |
 
-## 7. `maxsize` kya hai?
-`maxsize` maximum cached entries batata hai: `maxsize=10` means 10 entries; `maxsize=None` means unlimited cache. Unlimited cache memory use karta hai, isliye carefully use karein.
+## 7. What is `maxsize`?
+`maxsize` is the maximum number of cached entries: `maxsize=10` means 10 entries, and `maxsize=None` means an unlimited cache. An unlimited cache uses memory, so use it carefully.
 
-## 8. `cache_info()` kya karta hai?
-Cache ka report deta hai:
-- `hits`: cached result kitni baar reuse hua.
-- `misses`: result cache mein nahi mila.
-- `maxsize`: maximum cache size.
-- `currsize`: abhi kitni entries stored hain.
+## 8. What does `cache_info()` do?
+It gives a report about the cache:
+- `hits`: how many times a cached result was reused.
+- `misses`: how many times the result was not found in the cache.
+- `maxsize`: the maximum cache size.
+- `currsize`: how many entries are currently stored.
 
-## 9. `cache_clear()` kya karta hai?
-`cache_clear()` stored results aur cache statistics clear/reset karta hai.
+## 9. What does `cache_clear()` do?
+`cache_clear()` clears the stored results and resets the cache statistics.
 
-## 10. Hashable arguments kya hote hain?
-Cache arguments ko keys ki tarah use karta hai, isliye arguments hashable hone chahiye. Integers, strings aur suitable tuples hashable hote hain; lists aur dictionaries directly cache keys nahi ban sakte, kyunki woh mutable/unhashable hain.
+## 10. What are hashable arguments?
+The cache uses the arguments as keys, so the arguments must be hashable. Integers, strings, and suitable tuples are hashable; lists and dictionaries cannot be used directly as cache keys because they are mutable and unhashable.
 
-## 11. Fibonacci mein caching
-Normal recursive Fibonacci same values baar-baar calculate kar sakta hai. `@lru_cache` previous results store karta hai aur repeated calculations avoid karta hai.
+## 11. Caching in Fibonacci
+A normal recursive Fibonacci function can calculate the same values again and again. `@lru_cache` stores the previous results and avoids repeated calculations.
 
-## 12. Caching ki limitations
-- Cache memory use karta hai.
-- Har function caching ke liye suitable nahi.
-- Changing external data par based result outdated ho sakta hai.
-- Side effects wale function mein repeated execution skip hone se behavior badal sakta hai.
-- Caching hamesha performance improve nahi karti.
+## 12. Limitations of caching
+- A cache uses memory.
+- Not every function is suitable for caching.
+- A result based on changing external data can become outdated.
+- If a function has side effects, skipping repeated execution can change the program's behavior.
+- Caching does not always improve performance.
 
 ## Quick Revision
-- Caching = result save karke reuse.
-- Memoization = arguments ke basis par result cache.
+- Caching = save the result and reuse it.
+- Memoization = cache the result based on the arguments.
 - `@cache` = unlimited caching.
 - `@lru_cache(maxsize=...)` = limited LRU caching.
 - `cache_info()` = cache report.
-- `cache_clear()` = cache clear.
-- Arguments hashable hone chahiye.
+- `cache_clear()` = clear the cache.
+- Arguments must be hashable.
 
-Ab neeche diye gaye original practice questions solve karo. Pehle concept samjho, phir khud code likho.
+Now solve the original practice questions given below. First understand the concept, then write the code yourself.
 
 ---
 
@@ -729,7 +727,7 @@ Enter your choice:
 Day34_Function_Caching/
 │
 ├── README.md
-├── theory.py
+├── interview.md
 │
 ├── practice/
 │   ├── Q01.py
@@ -740,8 +738,6 @@ Day34_Function_Caching/
 └── project/
     └── main.py
 ```
-
----
 
 # 13. Interview Questions
 
